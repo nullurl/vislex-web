@@ -14,6 +14,7 @@ npm-debug.log*
 .DS_Store
 .idea/
 .vscode/
+.netlify/
 
 # Runtime data
 vislex.db
