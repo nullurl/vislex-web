@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-const DATA_URL = '/data/vislex.json'
+const DATA_URL = `${import.meta.env.BASE_URL}data/vislex.json`
 const COMBOS_STORAGE_KEY = 'vislex:combos'
 const COMBOS_UPDATED_EVENT = 'vislex:combos-updated'
 
