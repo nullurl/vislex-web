@@ -1,0 +1,5787 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name_zh": "视觉概念",
+      "name_en": "Visual Concept",
+      "icon": "◈",
+      "description": "定义画面的整体世界观、氛围与风格概念",
+      "sort_order": 1,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 2,
+      "name_zh": "材质",
+      "name_en": "Material",
+      "icon": "◉",
+      "description": "控制物体表面的质感、光泽与触感",
+      "sort_order": 2,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 3,
+      "name_zh": "视角类型",
+      "name_en": "Camera Angle",
+      "icon": "◎",
+      "description": "决定镜头位置与画面构图方式",
+      "sort_order": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 4,
+      "name_zh": "灯光类型",
+      "name_en": "Lighting",
+      "icon": "◐",
+      "description": "塑造画面光影关系与情绪基调",
+      "sort_order": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 5,
+      "name_zh": "画风",
+      "name_en": "Art Style",
+      "icon": "◑",
+      "description": "确定画面的艺术表现形式与绘画语言",
+      "sort_order": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 6,
+      "name_zh": "动漫风格",
+      "name_en": "Anime Style",
+      "icon": "◒",
+      "description": "日本动画与漫画的细分流派与画面特征",
+      "sort_order": 6,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 7,
+      "name_zh": "景别",
+      "name_en": "Shot Size",
+      "icon": "◳",
+      "description": "控制画面中人物或主体的大小比例，决定视觉信息密度与情感距离",
+      "sort_order": 7,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 8,
+      "name_zh": "运镜方式",
+      "name_en": "Camera Movement",
+      "icon": "◴",
+      "description": "镜头的运动轨迹与方式，影响节奏感、空间感与叙事动势",
+      "sort_order": 8,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 9,
+      "name_zh": "构图技法",
+      "name_en": "Composition",
+      "icon": "◵",
+      "description": "画面内各元素的空间排布与视觉引导法则",
+      "sort_order": 9,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 10,
+      "name_zh": "漫剧镜头",
+      "name_en": "Comic Shot",
+      "icon": "◶",
+      "description": "AI短剧与漫剧中常用的特定镜头语言与表现手法",
+      "sort_order": 10,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 11,
+      "name_zh": "摄影风格",
+      "name_en": "Photography Style",
+      "icon": "◷",
+      "description": "摄影器材、胶片风格与专业拍摄技法关键词，模拟真实摄影质感",
+      "sort_order": 11,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 12,
+      "name_zh": "艺术家风格",
+      "name_en": "Artist Style",
+      "icon": "◸",
+      "description": "以著名艺术家、插画师、导演名字为灵感的风格引用，直接调用其视觉语言",
+      "sort_order": 12,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 13,
+      "name_zh": "绘画媒材",
+      "name_en": "Drawing Medium",
+      "icon": "◹",
+      "description": "绘画工具与媒材关键词，控制画面的笔触感与材料质地",
+      "sort_order": 13,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 14,
+      "name_zh": "特殊镜头效果",
+      "name_en": "Lens Effect",
+      "icon": "◺",
+      "description": "镜头光学效果关键词，如散景、眩光、多重曝光等摄影特效",
+      "sort_order": 14,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 15,
+      "name_zh": "卡通动画风格",
+      "name_en": "Cartoon Style",
+      "icon": "◻",
+      "description": "动画制作公司风格、动漫 IP 风格与卡通美学关键词",
+      "sort_order": 15,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 16,
+      "name_zh": "产品设计与平面设计",
+      "name_en": "Product & Graphic Design",
+      "icon": "◼",
+      "description": "产品展示、Logo设计、室内平面图、像素游戏资源等视觉设计关键词",
+      "sort_order": 16,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 17,
+      "name_zh": "着色效果与线稿",
+      "name_en": "Coloring & Outline",
+      "icon": "⬡",
+      "description": "着色本、线稿、轮廓线风格关键词，生成可供手工上色或设计使用的线条图像",
+      "sort_order": 17,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 18,
+      "name_zh": "AI绘图模型风格",
+      "name_en": "AI Model Style",
+      "icon": "⬢",
+      "description": "Leonardo.Ai 等平台的专属模型与渲染模式风格关键词，直接调用 AI 平台风格预设",
+      "sort_order": 18,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 19,
+      "name_zh": "玩偶与特殊媒材",
+      "name_en": "Puppet & Special Media",
+      "icon": "⬣",
+      "description": "黏土、玩偶、傀儡、荧光等非常规立体媒材的艺术关键词",
+      "sort_order": 19,
+      "created_at": "2026-04-27 04:34:32"
+    }
+  ],
+  "terms": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "keyword_en": "cinematic lighting",
+      "keyword_zh": "电影级光影",
+      "description": "模拟电影摄影棚或外景的专业布光效果，画面层次丰富、戏剧感强，常带有强烈的冷暖对比。",
+      "tags": [
+        "氛围",
+        "光影",
+        "高级感"
+      ],
+      "example_prompt": "a lone wanderer on a desert highway, cinematic lighting, dusk, dust particles in air",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 15,
+      "category_id": 1,
+      "keyword_en": "cyberpunk",
+      "keyword_zh": "赛博朋克",
+      "description": "高科技低生活的未来都市，充满霓虹广告、雨湿地面反光、改造人与企业压迫。",
+      "tags": [
+        "科幻",
+        "未来",
+        "朋克"
+      ],
+      "example_prompt": "neon-drenched megacity street market, cyberpunk, rain reflections, augmented humans, corporate billboards",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 6,
+      "category_id": 1,
+      "keyword_en": "apocalyptic",
+      "keyword_zh": "启示录风格",
+      "description": "描绘末日降临的震撼景象，带有宗教预言色彩的毁灭与重生意象。",
+      "tags": [
+        "宏大",
+        "震撼",
+        "末日"
+      ],
+      "example_prompt": "four horsemen riding above burning city, apocalyptic sky, biblical lightning, ominous clouds",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 13,
+      "category_id": 1,
+      "keyword_en": "dark fantasy",
+      "keyword_zh": "黑暗奇幻",
+      "description": "融合奇幻世界观与黑暗压抑氛围，包含诅咒、腐朽、死亡等主题，画面厚重沉郁。",
+      "tags": [
+        "世界观",
+        "黑暗",
+        "奇幻"
+      ],
+      "example_prompt": "corrupted paladin kneeling before dark altar, dark fantasy, dying roses, cursed armor, somber mood",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 5,
+      "category_id": 1,
+      "keyword_en": "dreamlike",
+      "keyword_zh": "梦境感",
+      "description": "营造如梦似幻的氛围，边界模糊、色彩柔和，现实与幻觉交织共存。",
+      "tags": [
+        "氛围",
+        "柔和",
+        "飘渺"
+      ],
+      "example_prompt": "girl walking through oversized flowers, dreamlike atmosphere, soft pastel colors, hazy bokeh",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 2,
+      "category_id": 1,
+      "keyword_en": "dystopian",
+      "keyword_zh": "末世废土",
+      "description": "描绘文明崩溃后的荒芜世界，充满破败建筑、污染环境与生存压迫感。",
+      "tags": [
+        "世界观",
+        "暗黑",
+        "科幻"
+      ],
+      "example_prompt": "collapsed skyscrapers overgrown with vines, dystopian cityscape, acid rain, survivors camp",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 7,
+      "category_id": 1,
+      "keyword_en": "ethereal",
+      "keyword_zh": "空灵",
+      "description": "轻盈飘逸、超脱尘世的美感，常用光晕、薄雾与半透明元素营造若隐若现的效果。",
+      "tags": [
+        "氛围",
+        "轻盈",
+        "神圣"
+      ],
+      "example_prompt": "spirit figure made of light mist, ethereal glow, floating petals, sacred forest clearing",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 20,
+      "category_id": 1,
+      "keyword_en": "high fantasy",
+      "keyword_zh": "高奇幻",
+      "description": "宏大史诗的奇幻世界，精灵、龙族、魔法城堡与神话战争的壮丽叙事。",
+      "tags": [
+        "世界观",
+        "史诗",
+        "奇幻"
+      ],
+      "example_prompt": "elven city built into ancient mountain, high fantasy, waterfalls, magical towers, dragon circling above",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 17,
+      "category_id": 1,
+      "keyword_en": "steampunk",
+      "keyword_zh": "蒸汽朋克",
+      "description": "维多利亚时代美学与蒸汽机技术的幻想结合，齿轮、铜管、飞艇与礼帽的工业浪漫主义。",
+      "tags": [
+        "科幻",
+        "复古",
+        "工业"
+      ],
+      "example_prompt": "brass airship over Victorian cityscape, steampunk, copper gears, steam vents, amber fog",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 4,
+      "category_id": 1,
+      "keyword_en": "surrealism",
+      "keyword_zh": "超现实主义",
+      "description": "打破逻辑与现实的边界，将不可能的元素融合在同一画面，呈现梦境般的荒诞感。",
+      "tags": [
+        "艺术流派",
+        "梦幻",
+        "哲学"
+      ],
+      "example_prompt": "melting clocks draped over barren tree, surrealism, Salvador Dali inspired, desert landscape",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 12,
+      "category_id": 1,
+      "keyword_en": "synthwave",
+      "keyword_zh": "合成波",
+      "description": "80年代电子音乐视觉风格，发光网格地面、霓虹轮廓线、赛车与夜晚城市的组合。",
+      "tags": [
+        "亚文化",
+        "复古",
+        "霓虹"
+      ],
+      "example_prompt": "sports car racing through neon-lit tunnel, synthwave style, retrowave grid, purple orange sunset",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 11,
+      "category_id": 1,
+      "keyword_en": "vaporwave",
+      "keyword_zh": "蒸汽波",
+      "description": "80-90年代互联网文化的复古美学，粉紫色调、像素网格、古罗马雕像与过时电子设备的混搭。",
+      "tags": [
+        "亚文化",
+        "复古",
+        "网络"
+      ],
+      "example_prompt": "marble bust in neon grid desert, vaporwave aesthetic, pink purple sky, retro CRT glow, A E S T H E T I C S",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 10,
+      "category_id": 1,
+      "keyword_en": "biopunk",
+      "keyword_zh": "生物朋克",
+      "description": "以基因工程和生物技术为核心的赛博朋克分支，有机体与机械融合，充满肉体改造与病态美感。",
+      "tags": [
+        "科幻",
+        "生物",
+        "朋克"
+      ],
+      "example_prompt": "human body with organic mechanical grafts, biopunk design, bioluminescent veins, wet organic textures",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 8,
+      "category_id": 1,
+      "keyword_en": "cosmic horror",
+      "keyword_zh": "宇宙恐惧",
+      "description": "克苏鲁式的宇宙级恐惧，强调人类在无垠宇宙面前的渺小与无知，异形生物与不可名状的存在。",
+      "tags": [
+        "恐惧",
+        "克苏鲁",
+        "黑暗"
+      ],
+      "example_prompt": "ancient eldritch god emerging from ocean, cosmic horror, impossible geometry, sanity-breaking tentacles",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 16,
+      "category_id": 1,
+      "keyword_en": "cottagecore",
+      "keyword_zh": "田园核",
+      "description": "回归自然田园生活的温柔美学，手工编织、野花草地、木屋与烘焙面包的宁静慢生活。",
+      "tags": [
+        "氛围",
+        "自然",
+        "温柔"
+      ],
+      "example_prompt": "cozy cottage in wildflower meadow, cottagecore, morning light through curtains, bread baking, peaceful",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 18,
+      "category_id": 1,
+      "keyword_en": "neo-noir",
+      "keyword_zh": "新黑色",
+      "description": "当代语境下的黑色电影风格，保留原版的阴郁氛围但加入现代或未来元素。",
+      "tags": [
+        "风格",
+        "现代",
+        "犯罪"
+      ],
+      "example_prompt": "lone hacker in flooded subway, neo-noir, neon reflections on water, digital rain, melancholic mood",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 14,
+      "category_id": 1,
+      "keyword_en": "noir",
+      "keyword_zh": "黑色电影",
+      "description": "源自40-50年代好莱坞犯罪片的视觉风格，高对比度黑白或深色调，雨夜街道与神秘人物。",
+      "tags": [
+        "风格",
+        "复古",
+        "犯罪"
+      ],
+      "example_prompt": "detective under lamppost in rainy alley, film noir, black and white, dramatic shadows, cigarette smoke",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 9,
+      "category_id": 1,
+      "keyword_en": "solarpunk",
+      "keyword_zh": "太阳朋克",
+      "description": "乐观的未来主义，将高科技与自然生态完美融合，充满绿色植被、太阳能设备与社区共生的理想愿景。",
+      "tags": [
+        "世界观",
+        "生态",
+        "未来"
+      ],
+      "example_prompt": "solar-powered village wrapped in lush greenery, solarpunk aesthetic, joyful community, warm sunlight",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 3,
+      "category_id": 1,
+      "keyword_en": "utopian",
+      "keyword_zh": "乌托邦",
+      "description": "展现理想化的完美社会图景，光明洁净、秩序井然，常搭配未来建筑与绿色自然。",
+      "tags": [
+        "世界观",
+        "希望",
+        "未来"
+      ],
+      "example_prompt": "floating garden city above clouds, utopian architecture, golden sunlight, peaceful citizens",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 19,
+      "category_id": 1,
+      "keyword_en": "goblincore",
+      "keyword_zh": "哥布林核",
+      "description": "庆祝混乱、腐烂之美的自然美学，苔藓、蘑菇、雨后泥土与各种奇怪收藏品。",
+      "tags": [
+        "亚文化",
+        "自然",
+        "奇异"
+      ],
+      "example_prompt": "cozy underground den filled with mushrooms and trinkets, goblincore, moss covered stones, candlelight",
+      "weight": 2,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 188,
+      "category_id": 2,
+      "keyword_en": "Low poly",
+      "keyword_zh": "低多边形",
+      "description": "用有限数量的多边形构成的简化3D风格，几何折叠面产生独特的棱角美感，常见于游戏与数字艺术。",
+      "tags": [
+        "3D",
+        "数字",
+        "几何"
+      ],
+      "example_prompt": "low poly art of mountain landscape, triangular geometric facets, cool color palette, minimal polygon count, digital art aesthetic",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 31,
+      "category_id": 2,
+      "keyword_en": "chrome",
+      "keyword_zh": "镀铬",
+      "description": "高光洁度的镀铬表面，完美镜面反射，展现机械与未来感的极致光泽。",
+      "tags": [
+        "材质",
+        "工业",
+        "未来"
+      ],
+      "example_prompt": "futuristic robot head, chrome plated surface, perfect reflections, studio white light, hyperrealistic",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 29,
+      "category_id": 2,
+      "keyword_en": "crystal",
+      "keyword_zh": "水晶",
+      "description": "透明或半透明的晶体结构，内部折射光线产生彩虹效果，展现纯净与精密的美感。",
+      "tags": [
+        "材质",
+        "透明",
+        "光学"
+      ],
+      "example_prompt": "giant crystal formation in underground cave, prismatic light refractions, deep blue glow",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 32,
+      "category_id": 2,
+      "keyword_en": "holographic",
+      "keyword_zh": "全息",
+      "description": "全息投影效果的彩虹干涉色，随角度变化的光谱渐变，常见于未来科技视觉。",
+      "tags": [
+        "材质",
+        "科技",
+        "未来"
+      ],
+      "example_prompt": "holographic trading card with shifting rainbow foil, iridescent hologram effect, collector item",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 25,
+      "category_id": 2,
+      "keyword_en": "iridescent",
+      "keyword_zh": "彩虹光泽",
+      "description": "随视角变化呈现不同色彩的光学效果，如肥皂泡、蝴蝶翅膀、珠母贝等。",
+      "tags": [
+        "材质",
+        "色彩",
+        "光学"
+      ],
+      "example_prompt": "butterfly wings with iridescent scales, close-up macro, shifting rainbow colors, natural light",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 35,
+      "category_id": 2,
+      "keyword_en": "liquid metal",
+      "keyword_zh": "液态金属",
+      "description": "流动状态的金属质感，如水银般的镜面流体，高度反光且形态动态变化。",
+      "tags": [
+        "材质",
+        "未来",
+        "流体"
+      ],
+      "example_prompt": "liquid mercury forming humanoid shape, liquid metal surface, flowing motion, dramatic lighting",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 23,
+      "category_id": 2,
+      "keyword_en": "metallic",
+      "keyword_zh": "金属感",
+      "description": "金属材质的光泽与质地，包含钢铁的冷硬、黄金的暖光与铜的复古感。",
+      "tags": [
+        "材质",
+        "工业",
+        "光泽"
+      ],
+      "example_prompt": "armor made of brushed steel plates, metallic sheen, strong directional light, industrial workshop",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 36,
+      "category_id": 2,
+      "keyword_en": "neon",
+      "keyword_zh": "霓虹",
+      "description": "霓虹管发出的高饱和度彩色发光效果，常见于赛博朋克与夜间城市场景。",
+      "tags": [
+        "材质",
+        "发光",
+        "色彩"
+      ],
+      "example_prompt": "neon sign with Japanese kanji, glowing tubes, night rain reflections, bokeh background, vibrant colors",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 185,
+      "category_id": 2,
+      "keyword_en": "stained glass",
+      "keyword_zh": "彩绘玻璃",
+      "description": "彩色玻璃与铅条组成的镶嵌艺术，光线透过后呈现宝石般的彩色光影，常见于教堂。",
+      "tags": [
+        "工艺",
+        "光线",
+        "宗教"
+      ],
+      "example_prompt": "stained glass window depicting religious scene, vivid jewel-toned colors, lead came outlines, light streaming through, Gothic cathedral",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 364,
+      "category_id": 2,
+      "keyword_en": "3D graffiti",
+      "keyword_zh": "3D立体涂鸦",
+      "description": "具有立体视觉效果的街头涂鸦艺术，通过透视技巧让墙面图案产生突出或凹陷的三维幻觉。",
+      "tags": [
+        "材质",
+        "街头",
+        "3D"
+      ],
+      "example_prompt": "3D graffiti mural, anamorphic street art with depth illusion, wall painting with trompe-loeil perspective, urban art district, photorealistic graffiti",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 191,
+      "category_id": 2,
+      "keyword_en": "Alebrije",
+      "keyword_zh": "墨西哥神兽木雕",
+      "description": "墨西哥传统彩绘木雕神兽，将真实动物特征与幻想色彩融合，鲜艳繁复的图案充满奇幻活力。",
+      "tags": [
+        "工艺",
+        "墨西哥",
+        "奇幻"
+      ],
+      "example_prompt": "Alebrije Mexican folk art creature, intricate painted patterns on carved wood, vibrant colors, fantasy animal hybrid, Oaxacan craft",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 189,
+      "category_id": 2,
+      "keyword_en": "Bas-relief",
+      "keyword_zh": "浮雕",
+      "description": "在平面底板上凸起的雕刻，介于平面绘画与立体雕塑之间，常见于古典建筑装饰与硬币设计。",
+      "tags": [
+        "工艺",
+        "历史",
+        "建筑"
+      ],
+      "example_prompt": "marble bas-relief of ancient battle scene, figures emerging from flat surface, classical Roman style, dramatic shadows",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 40,
+      "category_id": 2,
+      "keyword_en": "fabric",
+      "keyword_zh": "织物",
+      "description": "各类纺织品的编织纹理与垂坠感，从丝绸的流光到粗麻的质朴。",
+      "tags": [
+        "材质",
+        "时尚",
+        "质感"
+      ],
+      "example_prompt": "flowing silk dress in the wind, intricate fabric texture, golden embroidery details, dramatic drapery",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 33,
+      "category_id": 2,
+      "keyword_en": "frosted glass",
+      "keyword_zh": "磨砂玻璃",
+      "description": "磨砂处理的玻璃表面，朦胧透光而不透明，展现现代简约的设计感。",
+      "tags": [
+        "材质",
+        "现代",
+        "透明"
+      ],
+      "example_prompt": "architectural partition wall in frosted glass, backlighting, modern interior, clean shadows",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 34,
+      "category_id": 2,
+      "keyword_en": "fur",
+      "keyword_zh": "毛皮",
+      "description": "动物毛皮的蓬松柔软质感，细腻的绒毛纹理与温暖的触感感召。",
+      "tags": [
+        "材质",
+        "自然",
+        "柔软"
+      ],
+      "example_prompt": "white arctic wolf, detailed fur texture, individual strand visible, soft winter light, 8K detail",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 363,
+      "category_id": 2,
+      "keyword_en": "glass plastic arts",
+      "keyword_zh": "玻璃琉璃艺术",
+      "description": "吹制玻璃或铸造琉璃的透明彩色艺术品，光线穿透产生的色彩折射与流动感是其核心美感。",
+      "tags": [
+        "材质",
+        "透明",
+        "色彩"
+      ],
+      "example_prompt": "glass art sculpture, blown glass with swirling color inclusions, translucent vibrant hues, light transmission through glass, Dale Chihuly inspired",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 22,
+      "category_id": 2,
+      "keyword_en": "glossy",
+      "keyword_zh": "亮光",
+      "description": "高度反光的光滑表面，镜面效果明显，常用于展现奢华感或工业产品质感。",
+      "tags": [
+        "表面",
+        "反光",
+        "奢华"
+      ],
+      "example_prompt": "luxury perfume bottle, glossy finish, studio lighting, specular highlights, product photography",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 361,
+      "category_id": 2,
+      "keyword_en": "jade material",
+      "keyword_zh": "玉石",
+      "description": "翠绿或白色的半透明玉石质感，内部含有气泡与纹路，中国传统工艺中最珍贵的材料之一。",
+      "tags": [
+        "材质",
+        "东方",
+        "珍贵"
+      ],
+      "example_prompt": "jade green translucent material, nephrite texture with internal inclusions, Chinese traditional craft, carved jade figurine, emerald luminosity",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 28,
+      "category_id": 2,
+      "keyword_en": "marble",
+      "keyword_zh": "大理石",
+      "description": "天然大理石的纹路与光泽，白色底色上的彩色纹理，展现高雅奢华的建筑与雕塑质感。",
+      "tags": [
+        "材质",
+        "奢华",
+        "自然"
+      ],
+      "example_prompt": "Greek statue carved in white marble, veined texture, museum lighting, classical beauty",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 21,
+      "category_id": 2,
+      "keyword_en": "matte",
+      "keyword_zh": "哑光",
+      "description": "无反光的柔和表面，吸收光线而非反射，赋予物体细腻均匀的质感，常见于高端设计品。",
+      "tags": [
+        "表面",
+        "低调",
+        "质感"
+      ],
+      "example_prompt": "minimalist sculpture, matte black surface, soft diffused light, no reflections",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 362,
+      "category_id": 2,
+      "keyword_en": "metal arts",
+      "keyword_zh": "金属艺术",
+      "description": "铁、铜、银等金属经过锻造、铸造或雕刻的艺术材质，工业感与艺术感并存的创作媒介。",
+      "tags": [
+        "材质",
+        "工业",
+        "雕塑"
+      ],
+      "example_prompt": "metal arts sculpture, forged iron and copper construction, industrial art installation, welded steel texture, gallery metalwork exhibition",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 186,
+      "category_id": 2,
+      "keyword_en": "mosaic",
+      "keyword_zh": "马赛克拼贴",
+      "description": "用小块彩色石、瓷砖或玻璃拼成图案的古老艺术，碎片化的表面带来独特的颗粒质感。",
+      "tags": [
+        "工艺",
+        "历史",
+        "拼贴"
+      ],
+      "example_prompt": "Byzantine mosaic portrait, golden tesserae background, colorful tile fragments, iconic frontal face, flat decorative style",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 30,
+      "category_id": 2,
+      "keyword_en": "obsidian",
+      "keyword_zh": "黑曜石",
+      "description": "火山玻璃的深黑色镜面质感，锋利的边缘与纯净的黑色表面，神秘而危险。",
+      "tags": [
+        "材质",
+        "黑暗",
+        "神秘"
+      ],
+      "example_prompt": "obsidian blade on ritual altar, volcanic glass texture, black mirror-like surface, candlelight reflections",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 184,
+      "category_id": 2,
+      "keyword_en": "origami art",
+      "keyword_zh": "折纸艺术",
+      "description": "日本折纸传统，将一张纸折叠成动物或几何造型，展现简洁优雅的形态美学。",
+      "tags": [
+        "日本",
+        "手工",
+        "几何"
+      ],
+      "example_prompt": "origami crane on minimalist white background, precise paper folds, clean geometric lines, Japanese craft aesthetic",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 183,
+      "category_id": 2,
+      "keyword_en": "paper art",
+      "keyword_zh": "纸雕艺术",
+      "description": "以纸为材料进行立体创作的工艺，包含剪纸、折纸与立体纸雕，展现纸张的层次与光影。",
+      "tags": [
+        "手工",
+        "立体",
+        "工艺"
+      ],
+      "example_prompt": "intricate 3D paper art sculpture, layered white paper, soft shadows, architectural structure, handcrafted detail",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 27,
+      "category_id": 2,
+      "keyword_en": "rusty",
+      "keyword_zh": "生锈",
+      "description": "铁锈的橙红色氧化质感，展现工业废弃物或老旧金属的岁月感与颓废美。",
+      "tags": [
+        "质感",
+        "工业",
+        "做旧"
+      ],
+      "example_prompt": "abandoned factory machinery, heavily rusted metal, peeling paint, dramatic side lighting",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 39,
+      "category_id": 2,
+      "keyword_en": "scales",
+      "keyword_zh": "鳞片",
+      "description": "鱼或爬行动物的鳞片排列，有规律的几何重复图案，展现自然的精密之美。",
+      "tags": [
+        "材质",
+        "生物",
+        "图案"
+      ],
+      "example_prompt": "dragon covered in iridescent scales, close-up detail, overlapping pattern, backlit luminescence",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 360,
+      "category_id": 2,
+      "keyword_en": "stone carving",
+      "keyword_zh": "石雕",
+      "description": "石材雕刻的坚硬质感，凿刻留下的纹路与矿物色泽，展现雕塑艺术的力量与永恒感。",
+      "tags": [
+        "材质",
+        "雕塑",
+        "传统"
+      ],
+      "example_prompt": "stone carving sculpture texture, chisel marks visible, granite or limestone material, outdoor monument aesthetic, ancient craft technique",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 24,
+      "category_id": 2,
+      "keyword_en": "translucent",
+      "keyword_zh": "半透明",
+      "description": "允许光线部分透过的材质，营造内发光或轻盈飘逸的视觉效果。",
+      "tags": [
+        "材质",
+        "光线",
+        "轻盈"
+      ],
+      "example_prompt": "translucent jellyfish floating in deep ocean, backlit, glowing, layered transparency",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 26,
+      "category_id": 2,
+      "keyword_en": "weathered",
+      "keyword_zh": "风化",
+      "description": "经历时间侵蚀的表面质感，裂缝、剥落与磨损记录着岁月痕迹，赋予物体历史厚重感。",
+      "tags": [
+        "质感",
+        "时间",
+        "做旧"
+      ],
+      "example_prompt": "ancient stone temple walls, weathered texture, centuries of erosion, lichen and moss growth",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 187,
+      "category_id": 2,
+      "keyword_en": "wood carving",
+      "keyword_zh": "木雕",
+      "description": "在木材上雕刻图案或立体造型的传统工艺，纹理与刀痕赋予作品自然温暖的质感。",
+      "tags": [
+        "工艺",
+        "自然",
+        "传统"
+      ],
+      "example_prompt": "detailed wood carving of forest scene, chisel marks visible, warm walnut grain, traditional craft aesthetic, relief sculpture",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 190,
+      "category_id": 2,
+      "keyword_en": "ASCII art",
+      "keyword_zh": "ASCII 字符艺术",
+      "description": "用键盘字符排列组成图像的数字艺术形式，源自早期计算机文化，将文字变为视觉媒介。",
+      "tags": [
+        "数字",
+        "复古",
+        "字符"
+      ],
+      "example_prompt": "ASCII art portrait made of keyboard characters, retro computer terminal aesthetic, monospace font grid, nostalgic digital art",
+      "weight": 2,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 38,
+      "category_id": 2,
+      "keyword_en": "ceramic",
+      "keyword_zh": "陶瓷",
+      "description": "釉面陶瓷的光滑质感，白色底色与釉料流纹，展现工艺美术与东方美学。",
+      "tags": [
+        "材质",
+        "工艺",
+        "优雅"
+      ],
+      "example_prompt": "Japanese ceramic tea bowl, crackle glaze texture, wabi-sabi aesthetics, tea ceremony setting",
+      "weight": 2,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 37,
+      "category_id": 2,
+      "keyword_en": "wood grain",
+      "keyword_zh": "木纹",
+      "description": "木材的天然纹理，年轮与纤维方向构成独特的有机图案，展现温暖自然的质感。",
+      "tags": [
+        "材质",
+        "自然",
+        "温暖"
+      ],
+      "example_prompt": "ancient wooden torii gate, detailed wood grain texture, mossy surface, forest temple setting",
+      "weight": 2,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 48,
+      "category_id": 3,
+      "keyword_en": "aerial view",
+      "keyword_zh": "空中俯瞰",
+      "description": "高空俯瞰视角，常模拟无人机或飞机视角，展现地理全貌与宏大场景。",
+      "tags": [
+        "构图",
+        "宏观",
+        "地理"
+      ],
+      "example_prompt": "aerial view of futuristic megacity at night, glowing grid of streets, river of light, haze",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 45,
+      "category_id": 3,
+      "keyword_en": "bird's eye view",
+      "keyword_zh": "俯瞰",
+      "description": "从正上方或高处向下拍摄，展现地面图案与布局，产生上帝视角的全知感。",
+      "tags": [
+        "构图",
+        "俯视",
+        "宏观"
+      ],
+      "example_prompt": "bird's eye view of ancient city ruins in jungle, geometric stone patterns, overgrown corridors",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 41,
+      "category_id": 3,
+      "keyword_en": "close-up",
+      "keyword_zh": "特写",
+      "description": "聚焦于主体的局部细节，通常为脸部或特定物件，强化情感张力与细节表现。",
+      "tags": [
+        "构图",
+        "情感",
+        "细节"
+      ],
+      "example_prompt": "close-up portrait of weathered old man, deep wrinkles, intense eyes, shallow depth of field",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 49,
+      "category_id": 3,
+      "keyword_en": "isometric",
+      "keyword_zh": "等距视角",
+      "description": "45度等角透视，无透视变形的平行投影视角，常用于游戏场景与建筑图解。",
+      "tags": [
+        "构图",
+        "游戏",
+        "设计"
+      ],
+      "example_prompt": "isometric view of cozy fantasy tavern interior, detailed miniature scene, warm candlelight, tiny characters",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 44,
+      "category_id": 3,
+      "keyword_en": "wide shot",
+      "keyword_zh": "广角",
+      "description": "展示人物全身及其所处环境的宽广视野，强调人物与空间的关系。",
+      "tags": [
+        "构图",
+        "环境",
+        "叙事"
+      ],
+      "example_prompt": "wide shot of lone astronaut on alien planet, vast landscape, two moons on horizon, scale contrast",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 370,
+      "category_id": 3,
+      "keyword_en": "360 degrees photo",
+      "keyword_zh": "360度全景照片",
+      "description": "可向任意方向观看的全方位球形全景照片，建议搭配 2:1 的横向比例使用。",
+      "tags": [
+        "构图",
+        "全景",
+        "沉浸"
+      ],
+      "example_prompt": "360 degree panoramic photo, spherical full surround view, equirectangular projection, immersive environment, --ar 2:1 wide format",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 47,
+      "category_id": 3,
+      "keyword_en": "Dutch angle",
+      "keyword_zh": "荷兰角",
+      "description": "倾斜的相机角度，画面歪斜营造不安感、紧张感或心理失衡的视觉效果。",
+      "tags": [
+        "构图",
+        "紧张",
+        "心理"
+      ],
+      "example_prompt": "Dutch angle shot of villain monologue, tilted frame, dramatic shadows, psychological tension",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 42,
+      "category_id": 3,
+      "keyword_en": "extreme close-up",
+      "keyword_zh": "超特写",
+      "description": "比特写更极端的局部放大，常用于眼睛、嘴唇或物体微观细节的表现。",
+      "tags": [
+        "构图",
+        "微观",
+        "强烈"
+      ],
+      "example_prompt": "extreme close-up of human eye, iris detail, teardrops, reflected cityscape, macro lens",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 58,
+      "category_id": 3,
+      "keyword_en": "high angle",
+      "keyword_zh": "高角度",
+      "description": "高于正常视线的俯拍角度，使主体显得渺小或易于展示空间布局。",
+      "tags": [
+        "构图",
+        "俯拍",
+        "叙事"
+      ],
+      "example_prompt": "high angle shot of crowded marketplace, colorful stalls seen from above, patterns of people and goods",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 57,
+      "category_id": 3,
+      "keyword_en": "low angle",
+      "keyword_zh": "低角度",
+      "description": "低于正常视线高度的仰拍角度，赋予主体威严与力量感。",
+      "tags": [
+        "构图",
+        "仰拍",
+        "力量"
+      ],
+      "example_prompt": "low angle shot of towering Gothic cathedral, imposing stone facade, storm clouds, spiritual awe",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 51,
+      "category_id": 3,
+      "keyword_en": "macro",
+      "keyword_zh": "微距",
+      "description": "极近距离拍摄微小物体，展现肉眼难以察觉的精细世界。",
+      "tags": [
+        "构图",
+        "微观",
+        "科学"
+      ],
+      "example_prompt": "macro photography of dewdrop on spider web, reflected forest, ultra-sharp detail, morning light",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 43,
+      "category_id": 3,
+      "keyword_en": "medium shot",
+      "keyword_zh": "中景",
+      "description": "显示人物腰部以上的标准拍摄角度，平衡了人物与环境的关系。",
+      "tags": [
+        "构图",
+        "标准",
+        "叙事"
+      ],
+      "example_prompt": "medium shot of detective at crime scene, trench coat, rain, urban environment, moody lighting",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 371,
+      "category_id": 3,
+      "keyword_en": "microscope view",
+      "keyword_zh": "显微镜视角",
+      "description": "模拟显微镜或电子显微镜观察的极端微距效果，展现肉眼不可见的微观世界细节。",
+      "tags": [
+        "构图",
+        "微观",
+        "科学"
+      ],
+      "example_prompt": "electron microscope view of butterfly wing scales, extreme micro magnification, scientific visualization, detailed cell structure, magnified micro world",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 50,
+      "category_id": 3,
+      "keyword_en": "panoramic",
+      "keyword_zh": "全景",
+      "description": "超宽画幅的全景视角，展现壮阔的自然景观或城市天际线。",
+      "tags": [
+        "构图",
+        "宏大",
+        "风景"
+      ],
+      "example_prompt": "panoramic landscape of mountain range at sunrise, sweeping vista, morning mist, 16:9 cinematic",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 54,
+      "category_id": 3,
+      "keyword_en": "point of view",
+      "keyword_zh": "第一人称",
+      "description": "模拟人物视角的主观镜头，带来强烈的代入感与沉浸体验。",
+      "tags": [
+        "构图",
+        "沉浸",
+        "叙事"
+      ],
+      "example_prompt": "first person POV in dense alien jungle, hands holding machete, glowing creatures, immersive perspective",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 53,
+      "category_id": 3,
+      "keyword_en": "tilt-shift",
+      "keyword_zh": "移轴",
+      "description": "移轴镜头效果，使画面产生微缩模型的视觉感，中间清晰两端模糊。",
+      "tags": [
+        "构图",
+        "特效",
+        "创意"
+      ],
+      "example_prompt": "tilt-shift photography of busy city intersection, miniature model effect, selective focus, aerial perspective",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 372,
+      "category_id": 3,
+      "keyword_en": "tiny planet",
+      "keyword_zh": "小星球效果",
+      "description": "将360度全景照片处理成球形小星球的创意特效，地面向上弯曲形成可爱的迷你星球感。",
+      "tags": [
+        "构图",
+        "特效",
+        "创意"
+      ],
+      "example_prompt": "360 degree photo converted to tiny planet effect, spherical world with curved horizon, miniature earth ball, creative wide angle distortion",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 46,
+      "category_id": 3,
+      "keyword_en": "worm's eye view",
+      "keyword_zh": "仰视",
+      "description": "从极低角度向上拍摄，使主体显得高大壮观，常用于建筑或英雄人物的表现。",
+      "tags": [
+        "构图",
+        "仰视",
+        "宏大"
+      ],
+      "example_prompt": "worm's eye view of giant robot walking through city, towering perspective, motion blur, dramatic sky",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 52,
+      "category_id": 3,
+      "keyword_en": "fish-eye",
+      "keyword_zh": "鱼眼",
+      "description": "超广角镜头造成的球形畸变效果，边缘弯曲变形，产生独特的视觉冲击力。",
+      "tags": [
+        "构图",
+        "畸变",
+        "特效"
+      ],
+      "example_prompt": "fish-eye lens view of skatepark, extreme distortion, action sports, urban concrete, dynamic energy",
+      "weight": 2,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 55,
+      "category_id": 3,
+      "keyword_en": "over-the-shoulder",
+      "keyword_zh": "过肩",
+      "description": "从人物肩膀后方拍摄对话场景，建立主客体关系与空间深度。",
+      "tags": [
+        "构图",
+        "叙事",
+        "对话"
+      ],
+      "example_prompt": "over-the-shoulder view of two characters confronting each other, dramatic standoff, western saloon",
+      "weight": 2,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 56,
+      "category_id": 3,
+      "keyword_en": "split screen",
+      "keyword_zh": "分屏",
+      "description": "将画面分割为多个区域同时展示不同场景或视角，增强叙事对比效果。",
+      "tags": [
+        "构图",
+        "创意",
+        "叙事"
+      ],
+      "example_prompt": "split screen showing same location in past and present, left aged sepia right modern vivid, diptych composition",
+      "weight": 2,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 77,
+      "category_id": 4,
+      "keyword_en": "god rays",
+      "keyword_zh": "丁达尔光",
+      "description": "光线穿过缝隙或枝叶形成的放射状光束，如森林中阳光透过树冠的神圣光柱。",
+      "tags": [
+        "自然",
+        "神圣",
+        "体积"
+      ],
+      "example_prompt": "god rays filtering through ancient forest canopy, misty morning light, mossy floor illuminated, magical atmosphere",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 59,
+      "category_id": 4,
+      "keyword_en": "golden hour",
+      "keyword_zh": "黄金时刻",
+      "description": "日出后或日落前约一小时的温暖橙金色光线，色温低、阴影长、质感柔和，是摄影最佳时刻。",
+      "tags": [
+        "时间",
+        "温暖",
+        "自然光"
+      ],
+      "example_prompt": "golden hour portrait of woman in wheat field, warm amber light, long shadows, lens flare, peaceful",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 66,
+      "category_id": 4,
+      "keyword_en": "volumetric lighting",
+      "keyword_zh": "体积光",
+      "description": "光线穿过雾气或尘埃粒子时形成的可见光束，俗称耶稣光或丁达尔效应的增强版。",
+      "tags": [
+        "技术",
+        "体积",
+        "氛围"
+      ],
+      "example_prompt": "volumetric light rays through cathedral windows, dust motes visible, spiritual atmosphere, warm shafts",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 63,
+      "category_id": 4,
+      "keyword_en": "backlight",
+      "keyword_zh": "逆光",
+      "description": "光源位于主体后方，形成剪影或半透明的发光效果，充满梦幻与神秘感。",
+      "tags": [
+        "技术",
+        "剪影",
+        "梦幻"
+      ],
+      "example_prompt": "dancer silhouetted against bright backlight, dust particles visible, ethereal atmosphere, motion frozen",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 68,
+      "category_id": 4,
+      "keyword_en": "bioluminescence",
+      "keyword_zh": "生物发光",
+      "description": "生物体自身发出的冷光，如深海生物的蓝绿荧光，营造神秘的自然奇观感。",
+      "tags": [
+        "自然",
+        "发光",
+        "神秘"
+      ],
+      "example_prompt": "bioluminescent ocean waves at night, glowing blue plankton, dark beach, long exposure effect",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 60,
+      "category_id": 4,
+      "keyword_en": "blue hour",
+      "keyword_zh": "蓝调时刻",
+      "description": "日出前或日落后短暂的深蓝色天空时刻，城市灯光与天空色调完美平衡的魔幻时刻。",
+      "tags": [
+        "时间",
+        "冷调",
+        "城市"
+      ],
+      "example_prompt": "Paris skyline at blue hour, Eiffel Tower lights, deep blue sky, street reflections, long exposure look",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 74,
+      "category_id": 4,
+      "keyword_en": "chiaroscuro",
+      "keyword_zh": "明暗对比",
+      "description": "源自文艺复兴绘画的强烈明暗对比技法，光明与黑暗的戏剧性对立，如卡拉瓦乔风格。",
+      "tags": [
+        "绘画",
+        "对比",
+        "经典"
+      ],
+      "example_prompt": "chiaroscuro portrait inspired by Caravaggio, single candle light source, deep black shadows, Renaissance style",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 61,
+      "category_id": 4,
+      "keyword_en": "dramatic lighting",
+      "keyword_zh": "戏剧光",
+      "description": "强烈的明暗对比与定向光源，营造紧张的戏剧化氛围，常用于表现冲突与情感高潮。",
+      "tags": [
+        "情绪",
+        "对比",
+        "戏剧"
+      ],
+      "example_prompt": "dramatic lighting on knight in dark chamber, single torch illumination, deep shadows, heroic pose",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 70,
+      "category_id": 4,
+      "keyword_en": "moonlight",
+      "keyword_zh": "月光",
+      "description": "月亮反射的冷白或冰蓝色光线，营造夜间的神秘、浪漫或孤寂氛围。",
+      "tags": [
+        "自然",
+        "夜间",
+        "冷调"
+      ],
+      "example_prompt": "moonlight over misty lake, silver light on water, lone figure on dock, reflections, nocturnal peace",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 67,
+      "category_id": 4,
+      "keyword_en": "neon lighting",
+      "keyword_zh": "霓虹灯光",
+      "description": "霓虹灯管发出的强烈有色光，在夜间场景中创造鲜艳的色彩飞溅与反射效果。",
+      "tags": [
+        "城市",
+        "色彩",
+        "夜间"
+      ],
+      "example_prompt": "rain-soaked alley with competing neon signs, pink and cyan reflections on wet pavement, night scene",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 62,
+      "category_id": 4,
+      "keyword_en": "rim lighting",
+      "keyword_zh": "轮廓光",
+      "description": "从背后侧面打来的强光在主体边缘形成发光轮廓，使主体从背景中剥离出来。",
+      "tags": [
+        "技术",
+        "剥离",
+        "轮廓"
+      ],
+      "example_prompt": "rim lighting portrait of warrior silhouette, glowing edge light, dramatic backlight, dark background",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 73,
+      "category_id": 4,
+      "keyword_en": "HDR",
+      "keyword_zh": "高动态范围",
+      "description": "同时保留亮部与暗部细节的高动态范围处理，色彩丰富饱满，细节层次极为丰富。",
+      "tags": [
+        "技术",
+        "细节",
+        "摄影"
+      ],
+      "example_prompt": "HDR landscape photography, mountain sunset, full detail in shadows and highlights, vivid color range",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 75,
+      "category_id": 4,
+      "keyword_en": "ambient occlusion",
+      "keyword_zh": "环境遮蔽",
+      "description": "计算物体间遮挡关系产生的接触阴影，增强立体感与空间深度，是3D渲染常用技术。",
+      "tags": [
+        "3D",
+        "技术",
+        "立体"
+      ],
+      "example_prompt": "ambient occlusion render of mechanical gears, contact shadows in crevices, white clay model look",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 76,
+      "category_id": 4,
+      "keyword_en": "caustics",
+      "keyword_zh": "焦散",
+      "description": "光线通过透明或反射面聚焦后在表面形成的移动光纹，常见于水底或玻璃器皿下方。",
+      "tags": [
+        "技术",
+        "光学",
+        "水"
+      ],
+      "example_prompt": "caustic light patterns on pool floor through crystal water, shimmering undulating light network, summer",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 71,
+      "category_id": 4,
+      "keyword_en": "firelight",
+      "keyword_zh": "火光",
+      "description": "火焰的橙红色动态光源，温暖跳动的光影效果，带来原始与温馨并存的氛围。",
+      "tags": [
+        "自然",
+        "温暖",
+        "动态"
+      ],
+      "example_prompt": "campfire scene in dark forest, warm firelight on faces, dancing shadows on trees, sparks rising",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 65,
+      "category_id": 4,
+      "keyword_en": "hard light",
+      "keyword_zh": "硬光",
+      "description": "直接强光源产生的清晰锐利阴影，对比强烈，常用于表现力量感与现代工业风格。",
+      "tags": [
+        "技术",
+        "锐利",
+        "对比"
+      ],
+      "example_prompt": "hard light on geometric abstract sculpture, crisp harsh shadows, stark contrast, minimalist composition",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 64,
+      "category_id": 4,
+      "keyword_en": "soft light",
+      "keyword_zh": "柔光",
+      "description": "散射均匀的漫反射光，阴影边缘柔和，常用于人像和美食摄影，呈现温柔细腻的质感。",
+      "tags": [
+        "技术",
+        "柔和",
+        "人像"
+      ],
+      "example_prompt": "soft light portrait of child reading book, window light diffused by sheer curtain, gentle shadows",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 69,
+      "category_id": 4,
+      "keyword_en": "studio lighting",
+      "keyword_zh": "棚拍灯光",
+      "description": "专业摄影棚的可控人工照明，精确的三点布光或蝴蝶光，展现专业商业摄影质感。",
+      "tags": [
+        "专业",
+        "可控",
+        "商业"
+      ],
+      "example_prompt": "studio lighting product shot of luxury watch, clean white background, perfect specular highlights, commercial",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 72,
+      "category_id": 4,
+      "keyword_en": "subsurface scattering",
+      "keyword_zh": "次表面散射",
+      "description": "光线穿透半透明材质内部再散射出来的效果，如皮肤、蜡烛、玉石的内发光质感。",
+      "tags": [
+        "技术",
+        "皮肤",
+        "材质"
+      ],
+      "example_prompt": "hand held against bright light, subsurface scattering in skin, veins visible, warm translucent glow",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 85,
+      "category_id": 5,
+      "keyword_en": "concept art",
+      "keyword_zh": "概念艺术",
+      "description": "影视游戏前期制作中的视觉开发风格，注重世界观构建与设计细节的专业插画风格。",
+      "tags": [
+        "专业",
+        "设计",
+        "电影"
+      ],
+      "example_prompt": "concept art of alien megastructure, industrial scale, silhouetted workers for scale, matte painting style",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 78,
+      "category_id": 5,
+      "keyword_en": "photorealistic",
+      "keyword_zh": "超写实",
+      "description": "高度还原真实摄影效果的画风，细节精准、光影自然，难以与真实照片区分。",
+      "tags": [
+        "写实",
+        "摄影",
+        "精细"
+      ],
+      "example_prompt": "photorealistic portrait of elderly fisherman, deep wrinkles, weather-beaten skin, fishing village at dusk",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 269,
+      "category_id": 5,
+      "keyword_en": "16-bit pixel art",
+      "keyword_zh": "16位像素艺术",
+      "description": "超级任天堂时代的16位像素图形，65535色的丰富表现，相比8位更细腻的角色与场景。",
+      "tags": [
+        "数字",
+        "SNES",
+        "复古"
+      ],
+      "example_prompt": "16-bit pixel art RPG hero sprite, SNES era graphics quality, detailed animation frames, vibrant 65k color range, classic JRPG style",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 267,
+      "category_id": 5,
+      "keyword_en": "2D pixel art",
+      "keyword_zh": "2D像素艺术",
+      "description": "正面的二维像素艺术风格，用有限像素块构成清晰可辨的图案，是早期电子游戏的视觉基础。",
+      "tags": [
+        "数字",
+        "游戏",
+        "复古"
+      ],
+      "example_prompt": "2D pixel art scene of fantasy village, crisp pixel tiles, limited color palette, retro game sprite style, NES era aesthetics",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 270,
+      "category_id": 5,
+      "keyword_en": "8-bit pixel art",
+      "keyword_zh": "8位像素艺术",
+      "description": "NES/FC时代的8位像素图形，256色限制下的像素美学，马里奥与勇者斗恶龙的经典视觉语言。",
+      "tags": [
+        "数字",
+        "NES",
+        "复古"
+      ],
+      "example_prompt": "8-bit pixel art character sprites, NES Famicom era graphics, blocky pixels, 256 color limitation, classic Mario era aesthetic",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 165,
+      "category_id": 5,
+      "keyword_en": "Baroque art",
+      "keyword_zh": "巴洛克艺术",
+      "description": "17世纪欧洲极度富丽堂皇的艺术风格，强调动感、戏剧光影与宏大叙事，常见于教堂壁画与宫廷肖像。",
+      "tags": [
+        "历史",
+        "欧洲",
+        "戏剧"
+      ],
+      "example_prompt": "Baroque art painting of dramatic religious scene, chiaroscuro lighting, gold ornaments, dynamic figures, rich fabric drapery",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 170,
+      "category_id": 5,
+      "keyword_en": "Impressionnisme",
+      "keyword_zh": "印象派",
+      "description": "19世纪末法国绘画革命，捕捉瞬间光影变化，笔触松散、色彩鲜活，如莫内的睡莲系列。",
+      "tags": [
+        "历史",
+        "法国",
+        "光影"
+      ],
+      "example_prompt": "Impressionist style garden painting, loose brushstrokes, dappled sunlight on water, Monet inspired, vibrant color patches",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 166,
+      "category_id": 5,
+      "keyword_en": "Renaissance",
+      "keyword_zh": "文艺复兴",
+      "description": "14-17世纪欧洲艺术复兴运动，重视人文主义、科学透视与古典美学，画面精细和谐。",
+      "tags": [
+        "历史",
+        "欧洲",
+        "古典"
+      ],
+      "example_prompt": "Renaissance style portrait, sfumato technique, balanced composition, classical architecture background, da Vinci inspired",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 177,
+      "category_id": 5,
+      "keyword_en": "Ukiyo-e",
+      "keyword_zh": "浮世绘",
+      "description": "日本江户时代的木版画传统，展现歌舞伎、美人与自然风景，葛饰北斋的神奈川冲浪里为代表。",
+      "tags": [
+        "日本",
+        "历史",
+        "版画"
+      ],
+      "example_prompt": "Ukiyo-e woodblock print style, bold outlines, flat decorative colors, Mount Fuji and wave, Hokusai inspired, traditional Japanese",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 79,
+      "category_id": 5,
+      "keyword_en": "hyperrealistic",
+      "keyword_zh": "极度写实",
+      "description": "超越真实照片精度的极端写实风格，每个毛孔与微小细节都被精确呈现。",
+      "tags": [
+        "写实",
+        "超精细",
+        "震撼"
+      ],
+      "example_prompt": "hyperrealistic eye close-up, every iris fiber visible, 8K detail, dust on eyelashes, life-like",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 82,
+      "category_id": 5,
+      "keyword_en": "ink wash",
+      "keyword_zh": "水墨",
+      "description": "中国传统水墨画风格，以黑白墨色为主，寥寥数笔勾勒出意境深远的东方美学。",
+      "tags": [
+        "绘画",
+        "东方",
+        "意境"
+      ],
+      "example_prompt": "ink wash painting of misty mountain peaks, traditional Chinese style, spare brushwork, meditative mood",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 268,
+      "category_id": 5,
+      "keyword_en": "isometric pixel art",
+      "keyword_zh": "等距像素艺术",
+      "description": "45度等角视角的像素画风，不存在透视变形，可展示立体空间而保持像素块的清晰度。",
+      "tags": [
+        "数字",
+        "游戏",
+        "等距"
+      ],
+      "example_prompt": "isometric pixel art city block, tiny pixel buildings at 45 degree angle, cute miniature world, indie game aesthetic, perfect alignment",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 86,
+      "category_id": 5,
+      "keyword_en": "matte painting",
+      "keyword_zh": "哑光绘画",
+      "description": "电影特效背景板技术，将真实摄影与绘画合成创造壮观场景，质感真实而宏大。",
+      "tags": [
+        "电影",
+        "合成",
+        "宏大"
+      ],
+      "example_prompt": "matte painting of ancient civilization hidden valley, epic scale, photorealistic sky, painted environment",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 89,
+      "category_id": 5,
+      "keyword_en": "minimalism",
+      "keyword_zh": "极简主义",
+      "description": "去除一切多余元素，以最少的形式传达最大的信息，留白与克制是其核心美学。",
+      "tags": [
+        "设计",
+        "简洁",
+        "现代"
+      ],
+      "example_prompt": "minimalist composition single red sphere on white background, extreme simplicity, perfect lighting, zen",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 80,
+      "category_id": 5,
+      "keyword_en": "oil painting",
+      "keyword_zh": "油画",
+      "description": "传统油画的厚重笔触与丰富色层，呈现经典绘画的温润质感与深邃色彩。",
+      "tags": [
+        "绘画",
+        "经典",
+        "质感"
+      ],
+      "example_prompt": "baroque oil painting portrait of noble woman, rich fabrics, chiaroscuro lighting, old master technique",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 84,
+      "category_id": 5,
+      "keyword_en": "pixel art",
+      "keyword_zh": "像素艺术",
+      "description": "以低分辨率像素块构成画面的复古数字艺术风格，源自早期电子游戏的视觉语言。",
+      "tags": [
+        "数字",
+        "游戏",
+        "复古"
+      ],
+      "example_prompt": "16-bit pixel art scene of spaceship navigating asteroid field, retro game aesthetic, vibrant pixel colors",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 81,
+      "category_id": 5,
+      "keyword_en": "watercolor",
+      "keyword_zh": "水彩",
+      "description": "水彩的透明晕染效果，色彩流动自然，边缘柔和带有纸张纹理，充满清新轻盈感。",
+      "tags": [
+        "绘画",
+        "清新",
+        "透明"
+      ],
+      "example_prompt": "watercolor illustration of Japanese street in rain, soft bleeding colors, paper texture visible, delicate washes",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 172,
+      "category_id": 5,
+      "keyword_en": "Abstract Expressionism",
+      "keyword_zh": "抽象表现主义",
+      "description": "二战后美国艺术主流，强调自发的情感表达与无意识创作，如波洛克的滴画与罗斯科的色域。",
+      "tags": [
+        "历史",
+        "美国",
+        "抽象"
+      ],
+      "example_prompt": "Abstract Expressionism large canvas, gestural paint strokes, dripped lines, emotional intensity, Jackson Pollock influenced",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 168,
+      "category_id": 5,
+      "keyword_en": "Classicism",
+      "keyword_zh": "古典主义",
+      "description": "以古希腊罗马为典范的艺术风格，追求理性秩序、完美比例与永恒美感。",
+      "tags": [
+        "历史",
+        "希腊",
+        "比例"
+      ],
+      "example_prompt": "Classicism style statue in marble, perfect proportions, serene expression, Greek temple background, pure white",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 356,
+      "category_id": 5,
+      "keyword_en": "Contemporary art",
+      "keyword_zh": "当代艺术",
+      "description": "21世纪正在发生的艺术实践，包容多元媒介与观念，挑战传统美学边界的开放性表达。",
+      "tags": [
+        "艺术流派",
+        "当代",
+        "观念"
+      ],
+      "example_prompt": "contemporary art installation aesthetic, conceptual mixed media, thought-provoking composition, gallery white cube setting, challenging conventional art",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 171,
+      "category_id": 5,
+      "keyword_en": "Cubism",
+      "keyword_zh": "立体主义",
+      "description": "毕卡索等人发展的20世纪艺术革命，将物体分解为几何形，从多个视角同时呈现在同一平面。",
+      "tags": [
+        "历史",
+        "几何",
+        "前卫"
+      ],
+      "example_prompt": "Cubism portrait of woman, multiple simultaneous perspectives, fragmented geometric planes, Picasso style, muted earth tones",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 355,
+      "category_id": 5,
+      "keyword_en": "Cyber Art",
+      "keyword_zh": "数码艺术",
+      "description": "以数字技术为创作媒介的当代艺术形式，融合代码、算法与交互设计的数字美学。",
+      "tags": [
+        "艺术流派",
+        "当代",
+        "数字"
+      ],
+      "example_prompt": "Cyber Art digital aesthetic, algorithmic generative patterns, data visualization art, glowing circuit design, net art and digital media fusion",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 350,
+      "category_id": 5,
+      "keyword_en": "Expressionnisme",
+      "keyword_zh": "表现主义",
+      "description": "20世纪初强调情感表达的艺术运动，扭曲的形态、鲜烈的色彩与内心世界的外化呈现。",
+      "tags": [
+        "艺术流派",
+        "历史",
+        "情感"
+      ],
+      "example_prompt": "Expressionist style painting, distorted forms conveying inner anguish, harsh colors, psychological tension, German Expressionism Kirchner style",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 173,
+      "category_id": 5,
+      "keyword_en": "Fauvism",
+      "keyword_zh": "野兽派",
+      "description": "20世纪初的色彩革命，马蒂斯领导的运动，以极度饱和的非写实颜色表达情感，如野兽般奔放。",
+      "tags": [
+        "历史",
+        "色彩",
+        "奔放"
+      ],
+      "example_prompt": "Fauvist style landscape, intensely saturated non-naturalistic colors, bold flat strokes, Matisse inspired, joyful energy",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 351,
+      "category_id": 5,
+      "keyword_en": "Futurismo",
+      "keyword_zh": "未来主义",
+      "description": "意大利20世纪初的艺术运动，赞颂速度、机械与现代都市生活，通过重叠画面表现运动与动感。",
+      "tags": [
+        "艺术流派",
+        "历史",
+        "速度"
+      ],
+      "example_prompt": "Futurism painting, multiple exposure motion blur, speed and technology glorification, dynamic overlapping forms, Italian Futurist manifesto aesthetic",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 359,
+      "category_id": 5,
+      "keyword_en": "Japanese Woodblock Printmaking style",
+      "keyword_zh": "日本木刻版画",
+      "description": "江户时代日本版画的精湛技艺，木版印刷的平涂色块、精细线条与多版叠印的细腻色彩。",
+      "tags": [
+        "艺术流派",
+        "日本",
+        "版画"
+      ],
+      "example_prompt": "Japanese Woodblock Printmaking style, Ukiyo-e inspired carved block technique, flat color areas, fine line contours, Edo period printing aesthetic",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 347,
+      "category_id": 5,
+      "keyword_en": "Neoclassicism",
+      "keyword_zh": "新古典主义",
+      "description": "18世纪复兴古希腊罗马艺术的运动，严谨的构图、理想化的人体比例与清晰的线条轮廓。",
+      "tags": [
+        "艺术流派",
+        "历史",
+        "古典"
+      ],
+      "example_prompt": "Neoclassical painting style, idealized human figures, clear contour lines, Greek marble temple background, Jacques-Louis David inspired",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 357,
+      "category_id": 5,
+      "keyword_en": "New media art",
+      "keyword_zh": "新媒体艺术",
+      "description": "利用数字技术、互联网、AI与互动装置创作的艺术形式，探索人机关系与数字时代的感知体验。",
+      "tags": [
+        "艺术流派",
+        "当代",
+        "科技"
+      ],
+      "example_prompt": "new media art installation, interactive digital projection, LED immersive environment, technology and human body intersection, TeamLab style",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 176,
+      "category_id": 5,
+      "keyword_en": "OP Art",
+      "keyword_zh": "欧普艺术",
+      "description": "利用视觉错觉与几何图案制造动感幻觉的艺术风格，黑白或彩色交替的重复图案引发视觉振动。",
+      "tags": [
+        "视觉",
+        "几何",
+        "错觉"
+      ],
+      "example_prompt": "Op Art optical illusion pattern, black and white concentric waves creating 3D depth illusion, Vasarely style, mesmerizing grid",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 348,
+      "category_id": 5,
+      "keyword_en": "Post-Impressionism",
+      "keyword_zh": "后印象派",
+      "description": "从印象派发展出的多元艺术风格，包含梵谷的笔触、高更的色彩与塞尚的结构，情感与主观表达更强烈。",
+      "tags": [
+        "艺术流派",
+        "历史",
+        "表现"
+      ],
+      "example_prompt": "Post-Impressionist painting, expressive brushwork and bold colors, subjective emotional interpretation of landscape, Van Gogh Gauguin Cezanne style",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 352,
+      "category_id": 5,
+      "keyword_en": "Postmodernism",
+      "keyword_zh": "后现代主义",
+      "description": "质疑传统与宏大叙事的当代艺术思潮，拼贴混搭、引用与解构，戏谑高雅文化与大众文化边界。",
+      "tags": [
+        "艺术流派",
+        "当代",
+        "解构"
+      ],
+      "example_prompt": "Postmodern art style, collage of high and low culture references, ironic appropriation, pastiche composition, Jeff Koons or Cindy Sherman aesthetic",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 175,
+      "category_id": 5,
+      "keyword_en": "Realism",
+      "keyword_zh": "写实主义",
+      "description": "19世纪法国艺术运动，反对浪漫化，忠实描绘普通人的劳动生活，米勒的农民题材为代表。",
+      "tags": [
+        "历史",
+        "写实",
+        "社会"
+      ],
+      "example_prompt": "Realism style painting of peasants harvesting wheat, dignified working figures, natural light, Millet inspired, honest depiction",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 169,
+      "category_id": 5,
+      "keyword_en": "Rococo",
+      "keyword_zh": "洛可可",
+      "description": "18世纪法国贵族的精致装饰风格，粉彩色调、曲线装饰与轻盈欢愉的生活场景。",
+      "tags": [
+        "历史",
+        "法国",
+        "装饰"
+      ],
+      "example_prompt": "Rococo style boudoir scene, pastel colors, ornate gilded frames, aristocratic lady, floral motifs, delicate elegance",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 167,
+      "category_id": 5,
+      "keyword_en": "Romanticism",
+      "keyword_zh": "浪漫主义",
+      "description": "18-19世纪反对理性主义的艺术运动，强调情感、自然壮美与个人主义，画面充满激情与戏剧张力。",
+      "tags": [
+        "历史",
+        "情感",
+        "自然"
+      ],
+      "example_prompt": "Romanticism painting of heroic figure on cliff overlooking stormy sea, dramatic clouds, sublime nature, epic grandeur",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 349,
+      "category_id": 5,
+      "keyword_en": "Symbolism",
+      "keyword_zh": "象征主义",
+      "description": "19世纪末用隐喻与象征传达精神世界的艺术运动，梦幻意象、神话主题与深邃的内心表达。",
+      "tags": [
+        "艺术流派",
+        "历史",
+        "神秘"
+      ],
+      "example_prompt": "Symbolist painting, mysterious allegorical imagery, dreamlike mood, mythological themes, Odilon Redon or Gustave Moreau style, hidden meanings",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 178,
+      "category_id": 5,
+      "keyword_en": "Yamato-e",
+      "keyword_zh": "大和绘",
+      "description": "日本平安时代发展的本土绘画风格，描绘宫廷生活与四季景色，色彩雅丽，构图强调俯瞰视角。",
+      "tags": [
+        "日本",
+        "历史",
+        "宫廷"
+      ],
+      "example_prompt": "Yamato-e style court scene, traditional Japanese color palette, bird-eye composition, seasonal motifs, aristocratic figures",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 182,
+      "category_id": 5,
+      "keyword_en": "ancient Egyptian Art",
+      "keyword_zh": "古埃及艺术",
+      "description": "古埃及的壁画与雕塑传统，正面律构图、象形文字装饰与金色的神圣图像体系。",
+      "tags": [
+        "历史",
+        "埃及",
+        "神圣"
+      ],
+      "example_prompt": "ancient Egyptian Art style, hieroglyphs and profile figures, gold and lapis blue palette, pharaoh portrait, papyrus texture",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 88,
+      "category_id": 5,
+      "keyword_en": "art nouveau",
+      "keyword_zh": "新艺术运动",
+      "description": "19世纪末20世纪初的装饰艺术风格，有机曲线、植物纹样与精美装饰细节。",
+      "tags": [
+        "历史",
+        "装饰",
+        "优雅"
+      ],
+      "example_prompt": "art nouveau poster of mysterious woman, flowing organic lines, peacock motifs, floral border, Mucha style",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 87,
+      "category_id": 5,
+      "keyword_en": "flat design",
+      "keyword_zh": "扁平设计",
+      "description": "无立体感阴影的简洁二维设计风格，色块明快，源自现代UI设计理念。",
+      "tags": [
+        "设计",
+        "现代",
+        "简洁"
+      ],
+      "example_prompt": "flat design illustration of smart city, geometric shapes, bold colors, no shadows, vector clean style",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 92,
+      "category_id": 5,
+      "keyword_en": "glitch art",
+      "keyword_zh": "故障艺术",
+      "description": "利用数字故障、数据损坏与视觉错误创造的美学风格，像素偏移、色彩分离与数字噪点。",
+      "tags": [
+        "数字",
+        "错误",
+        "现代"
+      ],
+      "example_prompt": "glitch art portrait, RGB channel separation, pixel corruption, digital artifacts, scan line distortion",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 90,
+      "category_id": 5,
+      "keyword_en": "impasto",
+      "keyword_zh": "厚涂",
+      "description": "大量颜料堆积形成明显肌理的油画技法，笔触粗犷有力，表面凹凸可见。",
+      "tags": [
+        "绘画",
+        "质感",
+        "表现"
+      ],
+      "example_prompt": "impasto oil painting of stormy sea, thick textured brushstrokes, turbulent waves, Van Gogh-esque energy",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 97,
+      "category_id": 5,
+      "keyword_en": "maximalism",
+      "keyword_zh": "繁复主义",
+      "description": "与极简主义相对，以更多的色彩、图案与装饰为美，堆叠层次创造丰富的视觉盛宴。",
+      "tags": [
+        "设计",
+        "繁复",
+        "装饰"
+      ],
+      "example_prompt": "maximalist baroque room interior, gilded every surface, layers of pattern and texture, overwhelming opulence",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 91,
+      "category_id": 5,
+      "keyword_en": "pop art",
+      "keyword_zh": "波普艺术",
+      "description": "60年代流行文化与商业美学的艺术运动，鲜艳色彩、本点网格与大众媒体图像的拼贴。",
+      "tags": [
+        "历史",
+        "流行",
+        "大众"
+      ],
+      "example_prompt": "pop art portrait in Warhol style, halftone dots, four color blocks, bold outlines, commercial print look",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 179,
+      "category_id": 5,
+      "keyword_en": "poster art",
+      "keyword_zh": "海报艺术",
+      "description": "商业海报设计风格，大胆的版式、强烈的色彩对比与简洁的视觉传达，兼具审美与宣传功能。",
+      "tags": [
+        "设计",
+        "商业",
+        "字体"
+      ],
+      "example_prompt": "vintage poster art style, bold typography, strong graphic silhouette, limited color palette, retro commercial design",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 83,
+      "category_id": 5,
+      "keyword_en": "sketch",
+      "keyword_zh": "素描",
+      "description": "铅笔或炭笔的线条素描风格，展现结构与明暗的基础绘画形式，质朴而有力。",
+      "tags": [
+        "绘画",
+        "线条",
+        "基础"
+      ],
+      "example_prompt": "pencil sketch portrait study, cross-hatching shadows, raw artistic process visible, sketchbook style",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 180,
+      "category_id": 5,
+      "keyword_en": "street art",
+      "keyword_zh": "街头艺术",
+      "description": "公共空间的视觉艺术，包含涂鸦、壁画与装置，班克西式的社会批评或纯粹的美学表达。",
+      "tags": [
+        "当代",
+        "公共",
+        "文化"
+      ],
+      "example_prompt": "street art mural on urban wall, bold spray paint colors, social commentary imagery, Banksy inspired, urban texture",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 96,
+      "category_id": 5,
+      "keyword_en": "vector art",
+      "keyword_zh": "矢量艺术",
+      "description": "基于数学路径的清晰锐利插画风格，色彩平涂，线条精确，可无限缩放。",
+      "tags": [
+        "设计",
+        "数字",
+        "插画"
+      ],
+      "example_prompt": "vector art illustration of fox in autumn forest, clean lines, flat colors, sharp geometric shapes",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 174,
+      "category_id": 5,
+      "keyword_en": "Dadaism",
+      "keyword_zh": "达达主义",
+      "description": "一战后的虚无主义艺术运动，反对一切传统与逻辑，以荒诞拼贴与反艺术姿态挑战认知。",
+      "tags": [
+        "历史",
+        "荒诞",
+        "前卫"
+      ],
+      "example_prompt": "Dadaist collage artwork, random cut newspapers and photos, absurd combinations, anti-art statement, Marcel Duchamp style",
+      "weight": 2,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 181,
+      "category_id": 5,
+      "keyword_en": "Lascaux cave art",
+      "keyword_zh": "洞窟壁画",
+      "description": "史前人类在石灰岩洞穴壁面绘制的动物与手印，以拉斯科洞窟为代表，赭石与炭黑颜料的原始美感。",
+      "tags": [
+        "史前",
+        "原始",
+        "历史"
+      ],
+      "example_prompt": "Lascaux cave painting style, ancient bison and horse drawings, ochre and charcoal pigments, rough rock surface texture",
+      "weight": 2,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 358,
+      "category_id": 5,
+      "keyword_en": "Neo-Geometric",
+      "keyword_zh": "新几何主义",
+      "description": "80年代将简约几何形态与光滑人工材料结合的当代艺术，反思极简主义的商业化延伸。",
+      "tags": [
+        "艺术流派",
+        "当代",
+        "几何"
+      ],
+      "example_prompt": "Neo-Geometric art style, pristine geometric forms in reflective materials, cool intellectual minimalism, Haim Steinbach or Peter Halley aesthetic",
+      "weight": 2,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 93,
+      "category_id": 5,
+      "keyword_en": "bauhaus",
+      "keyword_zh": "包豪斯",
+      "description": "德国设计学院发展的功能主义美学，几何形态、原色配色与形式追随功能的设计哲学。",
+      "tags": [
+        "设计",
+        "历史",
+        "几何"
+      ],
+      "example_prompt": "Bauhaus style architectural poster, primary colors, geometric shapes, bold typography, functional design",
+      "weight": 2,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 95,
+      "category_id": 5,
+      "keyword_en": "brutalism",
+      "keyword_zh": "粗野主义",
+      "description": "强调裸露混凝土与建筑功能结构的设计风格，粗粝直接，拒绝装饰的工业美学。",
+      "tags": [
+        "建筑",
+        "工业",
+        "粗粝"
+      ],
+      "example_prompt": "brutalist concrete housing complex, raw exposed concrete, Soviet era architecture, harsh winter light",
+      "weight": 2,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 354,
+      "category_id": 5,
+      "keyword_en": "hieroglyphs",
+      "keyword_zh": "象形文字画",
+      "description": "古埃及象形文字的图像风格，侧面人物形象、神圣的动物与神明符号构成的平面装饰性画面。",
+      "tags": [
+        "艺术流派",
+        "古代",
+        "埃及"
+      ],
+      "example_prompt": "Egyptian hieroglyphs style artwork, flat profile figures, sacred animal symbols, pharaoh and gods, ancient papyrus color palette, vertical composition",
+      "weight": 2,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 353,
+      "category_id": 5,
+      "keyword_en": "petroglyph art",
+      "keyword_zh": "岩石刻画艺术",
+      "description": "史前人类在岩石上刻画的原始图像，简单符号化的动物与人形，展现人类最早的艺术表达。",
+      "tags": [
+        "艺术流派",
+        "史前",
+        "原始"
+      ],
+      "example_prompt": "petroglyph cave art style, primitive rock carving symbols, prehistoric animals and hunters, ochre and charcoal tones, ancient human marks",
+      "weight": 2,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 94,
+      "category_id": 5,
+      "keyword_en": "pointillism",
+      "keyword_zh": "点彩",
+      "description": "用纯色小点构成画面的印象派技法，近看点阵远看成图，色彩在视觉中混合。",
+      "tags": [
+        "绘画",
+        "印象派",
+        "技法"
+      ],
+      "example_prompt": "pointillist painting of Sunday afternoon in park, thousands of colored dots, Seurat inspired, dappled light",
+      "weight": 2,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 271,
+      "category_id": 6,
+      "keyword_en": "Pixar Animation style",
+      "keyword_zh": "皮克斯动画风格",
+      "description": "皮克斯的标志性3D动画美学，圆润有光泽的角色造型、细腻的材质渲染与感人的故事情感。",
+      "tags": [
+        "动画公司",
+        "3D",
+        "美国"
+      ],
+      "example_prompt": "Pixar Animation 3D style character, round glossy surface, expressive big eyes, warm light rendering, Toy Story emotional aesthetic",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 278,
+      "category_id": 6,
+      "keyword_en": "Ufotable Animation style",
+      "keyword_zh": "ufotable动画风格",
+      "description": "ufotable制作的《鬼灭之刃》与《命运》系列，以精细的CG混合手绘著称，绚丽的特效表现力。",
+      "tags": [
+        "动画公司",
+        "日本",
+        "特效"
+      ],
+      "example_prompt": "Ufotable animation style, Demon Slayer breath technique visual effects, intricate color gradients, CG-enhanced water and fire, cinematic quality",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 273,
+      "category_id": 6,
+      "keyword_en": "Walt Disney Animation style",
+      "keyword_zh": "迪士尼动画风格",
+      "description": "迪士尼经典手绘动画与现代3D的黄金标准，公主眼睛、精致服装与梦幻宫殿的童话美学。",
+      "tags": [
+        "动画公司",
+        "经典",
+        "童话"
+      ],
+      "example_prompt": "Walt Disney Animation classic style, princess character design, sparkly eyes, elegant costume, fairy tale castle background, magic and wonder",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 99,
+      "category_id": 6,
+      "keyword_en": "makoto shinkai style",
+      "keyword_zh": "新海诚风",
+      "description": "新海诚导演的超精细背景与天空表现，强烈的光晕效果、城市景观与情感共鸣的孤独感。",
+      "tags": [
+        "导演",
+        "写实",
+        "情感"
+      ],
+      "example_prompt": "Makoto Shinkai style cityscape, hyper-detailed background, lens flare, golden hour, lonely protagonist silhouette",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 98,
+      "category_id": 6,
+      "keyword_en": "studio ghibli style",
+      "keyword_zh": "吉卜力风",
+      "description": "宫崎骏工作室的经典动画风格，温暖水彩背景、精灵自然、奇幻冒险与人文关怀。",
+      "tags": [
+        "工作室",
+        "经典",
+        "奇幻"
+      ],
+      "example_prompt": "studio ghibli style spirit forest, ancient tree with glowing eyes, children exploring, warm watercolor backgrounds",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 272,
+      "category_id": 6,
+      "keyword_en": "DreamWorks Animation style",
+      "keyword_zh": "梦工厂动画风格",
+      "description": "梦工厂的幽默冒险3D动画，夸张的面部表情与动作，《功夫熊猫》与《怪物史莱克》的视觉风格。",
+      "tags": [
+        "动画公司",
+        "3D",
+        "幽默"
+      ],
+      "example_prompt": "DreamWorks Animation style, exaggerated humorous character, vibrant colors, action adventure scene, Shrek or Kung Fu Panda aesthetic",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 275,
+      "category_id": 6,
+      "keyword_en": "Marvel Animation style",
+      "keyword_zh": "漫威动画风格",
+      "description": "漫威漫画改编的超级英雄动画风格，肌肉发达的角色设计、动态的战斗场景与英雄主义美学。",
+      "tags": [
+        "动画公司",
+        "超级英雄",
+        "美国"
+      ],
+      "example_prompt": "Marvel Animation superhero style, muscular hero in costume, dynamic action pose, comic book color palette, energy effects and explosions",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 277,
+      "category_id": 6,
+      "keyword_en": "Toei Animation style",
+      "keyword_zh": "东映动画风格",
+      "description": "日本东映动画，七龙珠与美少女战士的制作公司，传统赛璐珞感的日本动画标准风格。",
+      "tags": [
+        "动画公司",
+        "日本",
+        "经典"
+      ],
+      "example_prompt": "Toei Animation style cel animation, Dragon Ball Z energy aura, clean line art, traditional Japanese anime aesthetics, dynamic battle pose",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 276,
+      "category_id": 6,
+      "keyword_en": "Warner Bros. Animation style",
+      "keyword_zh": "华纳兄弟动画风格",
+      "description": "华纳兄弟的经典手绘动画，兔巴哥与达菲鸭的橡皮管风格，极度夸张的动作与无厘头喜剧。",
+      "tags": [
+        "动画公司",
+        "经典",
+        "喜剧"
+      ],
+      "example_prompt": "Warner Bros cartoon style, Looney Tunes rubber hose animation, exaggerated squash and stretch, slapstick comedy, Bugs Bunny era aesthetics",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 102,
+      "category_id": 6,
+      "keyword_en": "chibi",
+      "keyword_zh": "Q版",
+      "description": "夸张的超级变形风格，头部占比极大、四肢极短，将角色变成超萌小人形态。",
+      "tags": [
+        "Q版",
+        "可爱",
+        "变形"
+      ],
+      "example_prompt": "chibi version of medieval knight, oversized helmet, tiny body, 2-head-tall proportions, cute expression",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 109,
+      "category_id": 6,
+      "keyword_en": "kyoto animation style",
+      "keyword_zh": "京阿尼风",
+      "description": "Kyoto Animation工作室的精致细腻风格，极高的作画质量、流畅的日常动作与情感细节表现。",
+      "tags": [
+        "工作室",
+        "精致",
+        "情感"
+      ],
+      "example_prompt": "kyoto animation style domestic scene, incredibly detailed hair animation, soft window light, emotional atmosphere",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 111,
+      "category_id": 6,
+      "keyword_en": "lo-fi anime",
+      "keyword_zh": "lo-fi 动漫",
+      "description": "lo-fi音乐封面常见的轻松学习动漫风，温暖室内场景、雨窗、书本与放松的女孩形象。",
+      "tags": [
+        "氛围",
+        "音乐",
+        "放松"
+      ],
+      "example_prompt": "lo-fi anime girl studying at desk, rain on window, warm lamp light, cozy room, autumn vibes, peaceful mood",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 104,
+      "category_id": 6,
+      "keyword_en": "magical girl",
+      "keyword_zh": "魔法少女",
+      "description": "女孩变身为具有魔法力量的英雄形象，华丽的变身序列、魔法阵与爱与希望的主题。",
+      "tags": [
+        "奇幻",
+        "女孩",
+        "华丽"
+      ],
+      "example_prompt": "magical girl transformation sequence, sparkles and ribbons, elaborate costume, magical staff, starry background",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 103,
+      "category_id": 6,
+      "keyword_en": "mecha",
+      "keyword_zh": "机甲",
+      "description": "巨型机器人战斗的动漫子类型，精细的机械结构设计、史诗级城市战斗场景。",
+      "tags": [
+        "科幻",
+        "机器人",
+        "战斗"
+      ],
+      "example_prompt": "mecha anime battle, giant robot vs kaiju, detailed mechanical joints, urban destruction, dramatic sky",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 101,
+      "category_id": 6,
+      "keyword_en": "moe",
+      "keyword_zh": "萌",
+      "description": "以可爱、治愈为核心美学的动漫风格，大眼睛、柔和线条、粉嫩色调与软萌角色设计。",
+      "tags": [
+        "萌系",
+        "可爱",
+        "治愈"
+      ],
+      "example_prompt": "moe anime girl with oversized eyes, pastel pink background, cat ears, soft round features, kawaii aesthetic",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 100,
+      "category_id": 6,
+      "keyword_en": "shonen",
+      "keyword_zh": "少年漫",
+      "description": "面向少年受众的热血冒险动漫风格，充满力量感的动态构图、友情与成长主题。",
+      "tags": [
+        "受众",
+        "热血",
+        "冒险"
+      ],
+      "example_prompt": "shonen anime battle scene, protagonist power-up aura, dynamic action lines, intense expression, energy effects",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 115,
+      "category_id": 6,
+      "keyword_en": "2.5D",
+      "keyword_zh": "二点五次元",
+      "description": "介于2D动漫与3D写实之间的混合风格，保留动漫线条感的同时引入立体光影效果。",
+      "tags": [
+        "技术",
+        "混合",
+        "现代"
+      ],
+      "example_prompt": "2.5D anime style character, toon-rendered with realistic depth, painterly shading, vivid colors, manga meets 3D",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 274,
+      "category_id": 6,
+      "keyword_en": "Nickelodeon Animation style",
+      "keyword_zh": "尼克动画风格",
+      "description": "尼克频道的西方儿童动画风格，夸张的卡通身体比例、鲜艳配色与轻松搞笑的美国少儿动画美学。",
+      "tags": [
+        "动画公司",
+        "儿童",
+        "西方"
+      ],
+      "example_prompt": "Nickelodeon cartoon style, rubbery exaggerated character proportions, bright kid-friendly colors, SpongeBob era animation, playful 2D style",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 106,
+      "category_id": 6,
+      "keyword_en": "cell shading",
+      "keyword_zh": "赛璐珞",
+      "description": "模拟传统动画赛璐珞感光胶片的渲染风格，硬边阴影、平涂色块，3D技术呈现2D动画感。",
+      "tags": [
+        "技术",
+        "渲染",
+        "传统"
+      ],
+      "example_prompt": "cell shaded 3D animation style character, toon rendering, hard shadow edges, classic anime look",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 105,
+      "category_id": 6,
+      "keyword_en": "dark anime",
+      "keyword_zh": "暗黑番",
+      "description": "带有黑暗主题与成熟叙事的动漫风格，血腥、道德困境、心理创伤与悲剧结局。",
+      "tags": [
+        "暗黑",
+        "成熟",
+        "心理"
+      ],
+      "example_prompt": "dark anime aesthetic, corrupted hero in ruins, desaturated colors, rain, hollow empty eyes, despair",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 107,
+      "category_id": 6,
+      "keyword_en": "isekai",
+      "keyword_zh": "异世界",
+      "description": "主角被传送或转生到另一个世界的动漫类型，奇幻冒险、游戏化世界观与强大主角模板。",
+      "tags": [
+        "类型",
+        "奇幻",
+        "冒险"
+      ],
+      "example_prompt": "isekai anime protagonist arriving in fantasy world, status screen UI overlay, medieval town, adventurer gear",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 117,
+      "category_id": 6,
+      "keyword_en": "light novel illustration",
+      "keyword_zh": "轻小说插画",
+      "description": "日本轻小说封面与内页的插画风格，精细华丽的角色设计、丰富的装备细节与鲜艳色彩。",
+      "tags": [
+        "插画",
+        "角色",
+        "详细"
+      ],
+      "example_prompt": "light novel cover illustration, detailed fantasy heroine, elaborate armor and weapon design, vibrant key visual",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 110,
+      "category_id": 6,
+      "keyword_en": "retro anime",
+      "keyword_zh": "复古动漫",
+      "description": "80-90年代动漫的视觉特征，胶片颗粒感、宽阔肩膀、高颧骨设计与磁带时代的怀旧感。",
+      "tags": [
+        "复古",
+        "80s",
+        "怀旧"
+      ],
+      "example_prompt": "retro 80s anime aesthetic, VHS grain, high contrast colors, classic mecha design, vintage cel animation look",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 113,
+      "category_id": 6,
+      "keyword_en": "seinen",
+      "keyword_zh": "青年漫",
+      "description": "面向成年男性的成熟动漫风格，写实细腻的画风、复杂人性与社会议题的深度叙事。",
+      "tags": [
+        "受众",
+        "成熟",
+        "写实"
+      ],
+      "example_prompt": "seinen anime realistic style, mature detective investigating crime scene, gritty urban environment, detailed anatomy",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 112,
+      "category_id": 6,
+      "keyword_en": "shojo",
+      "keyword_zh": "少女漫",
+      "description": "面向少女受众的浪漫情感动漫风格，花朵装饰、闪亮眼眸、情感细腻的恋爱故事。",
+      "tags": [
+        "受众",
+        "浪漫",
+        "情感"
+      ],
+      "example_prompt": "shojo manga style romantic scene, flowers everywhere, sparkly eyes, soft pink tones, gentle breeze",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 108,
+      "category_id": 6,
+      "keyword_en": "slice of life",
+      "keyword_zh": "日常系",
+      "description": "描绘平凡日常生活的温馨动漫，校园生活、友情与季节感的细腻描写。",
+      "tags": [
+        "日常",
+        "温馨",
+        "校园"
+      ],
+      "example_prompt": "slice of life anime school scene, afternoon sunlight through classroom window, cherry blossoms, peaceful moment",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 116,
+      "category_id": 6,
+      "keyword_en": "tokusatsu",
+      "keyword_zh": "特摄",
+      "description": "日本特摄影视的视觉风格，橡皮怪兽、变身英雄战队与爆炸特效的怀旧感。",
+      "tags": [
+        "影视",
+        "特效",
+        "复古"
+      ],
+      "example_prompt": "tokusatsu hero in colorful spandex suit, giant monster battle, miniature city set, practical effects look",
+      "weight": 2,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 114,
+      "category_id": 6,
+      "keyword_en": "visual kei",
+      "keyword_zh": "视觉系",
+      "description": "日本视觉系摇滚音乐的极致华丽美学，中性化妆容、过度夸张的服装与哥特风格。",
+      "tags": [
+        "音乐",
+        "时尚",
+        "华丽"
+      ],
+      "example_prompt": "visual kei rock musician, elaborate gothic costume, heavy eye makeup, dramatic stage lighting, glam aesthetic",
+      "weight": 2,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 119,
+      "category_id": 7,
+      "keyword_en": "big close-up shot",
+      "keyword_zh": "特写",
+      "description": "聚焦眼睛、嘴巴等面部局部，突出情绪表情与产品细节。常用于产品广告与悬疑剧情。",
+      "tags": [
+        "景别",
+        "情绪",
+        "广告"
+      ],
+      "example_prompt": "big close-up of lips applying red lipstick, product advertisement style, soft studio light, detail focus",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 120,
+      "category_id": 7,
+      "keyword_en": "close-up shot",
+      "keyword_zh": "近景",
+      "description": "完整呈现脸部，情绪表达最为丰富的景别。适合短剧情绪镜头、歌唱配音与护肤品上脸展示。",
+      "tags": [
+        "景别",
+        "人像",
+        "情绪"
+      ],
+      "example_prompt": "close-up portrait of actress showing grief, tears in eyes, shallow depth of field, natural window light",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 118,
+      "category_id": 7,
+      "keyword_en": "extreme close-up shot",
+      "keyword_zh": "大特写",
+      "description": "极度放大的局部细节，如瞳孔反光、手指伤口，用于制造强烈的悬疑或质感震撼。常用于悬疑惊悚剧情、质感广告与ASMR内容。",
+      "tags": [
+        "景别",
+        "细节",
+        "悬疑"
+      ],
+      "example_prompt": "extreme close-up of eye with reflected cityscape, tears forming, 8K macro detail, dramatic tension",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 126,
+      "category_id": 7,
+      "keyword_en": "extreme long shot",
+      "keyword_zh": "大远景",
+      "description": "最广阔的景别，展现战场、城市等宏大场景，人物极小甚至不可见。常用于开场、纪录片与AI短剧。",
+      "tags": [
+        "景别",
+        "宏大",
+        "开场"
+      ],
+      "example_prompt": "extreme long shot of ancient battlefield at dawn, vast landscape, thousands of soldiers as tiny silhouettes, cinematic epic scale",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 121,
+      "category_id": 7,
+      "keyword_en": "medium close-up shot",
+      "keyword_zh": "中近景",
+      "description": "胸口以上的景别，兼顾表情与肢体语言，是Vlog、情感独白与直播最常用的景别。",
+      "tags": [
+        "景别",
+        "Vlog",
+        "直播"
+      ],
+      "example_prompt": "medium close-up of young woman talking to camera, emotional vlog style, indoor natural light, engaging expression",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 124,
+      "category_id": 7,
+      "keyword_en": "full shot",
+      "keyword_zh": "全景",
+      "description": "展示完整人物并带有少量环境背景，强调人物与空间的互动。适合舞蹈、动作戏与搞笑短剧。",
+      "tags": [
+        "景别",
+        "全身",
+        "动作"
+      ],
+      "example_prompt": "full shot of dancer performing on stage, complete body visible, dynamic pose, stage lighting, environment included",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 125,
+      "category_id": 7,
+      "keyword_en": "long shot",
+      "keyword_zh": "远景",
+      "description": "可看清人物轮廓但不见细节的景别，人物融入环境，常用于旅行Vlog与运动视频。",
+      "tags": [
+        "景别",
+        "环境",
+        "旅行"
+      ],
+      "example_prompt": "long shot of hiker on mountain trail, small figure against vast landscape, golden hour, travel vlog style",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 123,
+      "category_id": 7,
+      "keyword_en": "medium long shot",
+      "keyword_zh": "四分之三身景",
+      "description": "大约到膝盖附近的景别，展示人物动作与整体姿态，常用于展示服装与体态。",
+      "tags": [
+        "景别",
+        "姿态",
+        "穿搭"
+      ],
+      "example_prompt": "medium long shot of model in fashion outfit, three-quarter body framing, urban street background, editorial style",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 122,
+      "category_id": 7,
+      "keyword_en": "medium shot",
+      "keyword_zh": "中景",
+      "description": "腰部以上的景别，平衡人物与环境信息，适合日常Vlog、教学视频与采访场景。",
+      "tags": [
+        "景别",
+        "标准",
+        "叙事"
+      ],
+      "example_prompt": "medium shot of teacher at whiteboard, educational video style, waist up framing, classroom background",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 136,
+      "category_id": 8,
+      "keyword_en": "drone shot",
+      "keyword_zh": "无人机镜头",
+      "description": "无人机拍摄的空中视角，可做复杂的立体运动轨迹，常用于旅行内容与开场宏景。",
+      "tags": [
+        "运镜",
+        "无人机",
+        "航拍"
+      ],
+      "example_prompt": "drone aerial shot swooping down over mountain valley, FPV drone movement, landscape reveal, cinematic aerial footage",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 132,
+      "category_id": 8,
+      "keyword_en": "follow shot",
+      "keyword_zh": "跟镜头",
+      "description": "摄像机跟随主体运动，保持相对固定的距离，带来强烈的伴随感与主观视角代入。",
+      "tags": [
+        "运镜",
+        "跟随",
+        "沉浸"
+      ],
+      "example_prompt": "follow shot behind protagonist walking through crowded market, handheld camera following closely, immersive POV feeling",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 140,
+      "category_id": 8,
+      "keyword_en": "handheld shot",
+      "keyword_zh": "手持运镜",
+      "description": "手持摄像机拍摄产生的轻微抖动感，营造真实感、紧张感与现场感，常用于动作戏与纪录片风格。",
+      "tags": [
+        "运镜",
+        "手持",
+        "真实感"
+      ],
+      "example_prompt": "handheld camera footage of action chase scene, slight shake and blur, documentary style, raw energy, authentic feel",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 133,
+      "category_id": 8,
+      "keyword_en": "orbit shot",
+      "keyword_zh": "环绕镜头",
+      "description": "镜头围绕主体做弧形或圆形运动，常用于展示人物或物体的全方位外观，制造戏剧性与宏大感。",
+      "tags": [
+        "运镜",
+        "环绕",
+        "360度"
+      ],
+      "example_prompt": "orbit shot circling around hero in slow motion, 360 degree camera rotation, power-up moment, epic cinematic",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 128,
+      "category_id": 8,
+      "keyword_en": "pull back",
+      "keyword_zh": "拉镜头",
+      "description": "镜头从主体向后撤离，逐渐揭露更广阔的环境，常用于揭示场景全貌或表达孤立感。",
+      "tags": [
+        "运镜",
+        "后撤",
+        "揭示"
+      ],
+      "example_prompt": "pull back shot from single person revealing they are alone in vast empty space, isolation feeling, camera retreating",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 127,
+      "category_id": 8,
+      "keyword_en": "push in",
+      "keyword_zh": "推镜头",
+      "description": "镜头向主体方向推进，画面主体逐渐变大，营造聚焦感与心理压迫感，常用于揭示重要信息的戏剧时刻。",
+      "tags": [
+        "运镜",
+        "推进",
+        "聚焦"
+      ],
+      "example_prompt": "push in shot towards protagonist face, slowly closing in, tension building, dramatic revelation moment",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 141,
+      "category_id": 8,
+      "keyword_en": "slow motion",
+      "keyword_zh": "慢镜头",
+      "description": "高帧率拍摄后降速播放，放慢动作展示细节，增强视觉冲击力与情感张力。",
+      "tags": [
+        "运镜",
+        "时间",
+        "情感"
+      ],
+      "example_prompt": "slow motion shot of water droplet impact, time stretched to reveal splash detail, dramatic lighting, hyper-real",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 135,
+      "category_id": 8,
+      "keyword_en": "crane shot",
+      "keyword_zh": "升降镜头",
+      "description": "摄像机沿垂直方向升起或降落，常用于开场的宏大展示或情绪的上扬/沉降。",
+      "tags": [
+        "运镜",
+        "升降",
+        "宏大"
+      ],
+      "example_prompt": "crane shot rising from ground level up to reveal vast landscape, ascending camera movement, establishing epic scene",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 137,
+      "category_id": 8,
+      "keyword_en": "dolly zoom",
+      "keyword_zh": "变焦拉伸",
+      "description": "又称希区柯克变焦，镜头推进的同时焦距变长（或反之），背景与前景比例错位，产生强烈的眩晕与震惊效果。",
+      "tags": [
+        "运镜",
+        "变焦",
+        "视觉特效"
+      ],
+      "example_prompt": "dolly zoom effect on character face, background stretching away while subject stays same size, Hitchcock zoom, vertigo effect",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 129,
+      "category_id": 8,
+      "keyword_en": "pan shot",
+      "keyword_zh": "横摇",
+      "description": "摄像机以垂直轴为中心水平旋转，跟随横向移动的主体或展示全景环境，流畅扫视画面。",
+      "tags": [
+        "运镜",
+        "水平",
+        "扫视"
+      ],
+      "example_prompt": "pan shot following running character through forest, camera pivoting horizontally, dynamic chase sequence",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 130,
+      "category_id": 8,
+      "keyword_en": "tilt shot",
+      "keyword_zh": "垂直摇",
+      "description": "摄像机以水平轴为中心上下旋转，从脚到头或从头到脚扫描人物，或展示高耸建筑。",
+      "tags": [
+        "运镜",
+        "垂直",
+        "扫描"
+      ],
+      "example_prompt": "tilt shot from feet up to face revealing character, camera tilting upward, dramatic introduction, hero stance",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 142,
+      "category_id": 8,
+      "keyword_en": "time lapse",
+      "keyword_zh": "延时摄影",
+      "description": "长时间间隔拍摄后加速播放，展现云朵流动、花朵开放等缓慢变化过程，压缩时间的史诗感。",
+      "tags": [
+        "运镜",
+        "时间",
+        "自然"
+      ],
+      "example_prompt": "time lapse of storm clouds forming over city skyline, accelerated weather change, dramatic sky transformation",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 131,
+      "category_id": 8,
+      "keyword_en": "tracking shot",
+      "keyword_zh": "移镜头",
+      "description": "摄像机平行于运动轨道横向移动，保持主体在画面中的相对位置，展现空间连续感。",
+      "tags": [
+        "运镜",
+        "移动",
+        "跟随"
+      ],
+      "example_prompt": "tracking shot alongside running athlete, camera moving parallel, dynamic side view, stadium background blurring",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 143,
+      "category_id": 8,
+      "keyword_en": "whip pan",
+      "keyword_zh": "甩镜头",
+      "description": "极快速度的横摇运动，画面因速度产生运动模糊，常用于场景转换与表现冲击力。",
+      "tags": [
+        "运镜",
+        "转场",
+        "速度"
+      ],
+      "example_prompt": "whip pan transition between two scenes, motion blur streak, fast camera swing, dynamic scene cut, energy transition",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 138,
+      "category_id": 8,
+      "keyword_en": "zoom in",
+      "keyword_zh": "推焦",
+      "description": "通过改变镜头焦距放大画面，主体变大但不产生真实空间移动感，常用于强调情绪与细节。",
+      "tags": [
+        "运镜",
+        "变焦",
+        "强调"
+      ],
+      "example_prompt": "zoom in on character eyes showing realization moment, focal length change, emotional emphasis, dramatic detail reveal",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 134,
+      "category_id": 8,
+      "keyword_en": "dutch roll",
+      "keyword_zh": "荷兰滚",
+      "description": "镜头在跟随运动的同时进行轴向旋转，产生迷幻的螺旋视觉效果，常用于心理扭曲场景。",
+      "tags": [
+        "运镜",
+        "旋转",
+        "特效"
+      ],
+      "example_prompt": "dutch roll camera movement, rotating and rolling simultaneously, psychological disorientation effect, dreamlike scene",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 144,
+      "category_id": 8,
+      "keyword_en": "smash cut",
+      "keyword_zh": "硬切",
+      "description": "两个对比强烈的场景的突然切换，无过渡的冲击性剪辑，制造强烈的对比反差与幽默效果。",
+      "tags": [
+        "运镜",
+        "剪辑",
+        "对比"
+      ],
+      "example_prompt": "smash cut from loud chaotic scene to silent peaceful one, extreme contrast edit, jarring transition effect",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 139,
+      "category_id": 8,
+      "keyword_en": "zoom out",
+      "keyword_zh": "拉焦",
+      "description": "通过缩短焦距拉远画面，主体变小并揭示更大环境，常用于情绪的平息或场景的全貌揭示。",
+      "tags": [
+        "运镜",
+        "变焦",
+        "揭示"
+      ],
+      "example_prompt": "zoom out revealing character is in a tiny corner of vast space, dramatic scale reveal, emotional distance",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 145,
+      "category_id": 9,
+      "keyword_en": "rule of thirds",
+      "keyword_zh": "三分法则",
+      "description": "将画面横竖各分三等份，主体或视觉重点放置在交叉点上，是最基础且有效的构图法则。",
+      "tags": [
+        "构图",
+        "法则",
+        "基础"
+      ],
+      "example_prompt": "portrait composed using rule of thirds, subject positioned at intersection point, balanced negative space, professional framing",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 146,
+      "category_id": 9,
+      "keyword_en": "centered composition",
+      "keyword_zh": "中心构图",
+      "description": "主体置于画面正中央，产生强烈的对称感与仪式感，常用于庄严、宏大或超现实场景。",
+      "tags": [
+        "构图",
+        "对称",
+        "仪式"
+      ],
+      "example_prompt": "perfectly centered composition, symmetrical architecture, subject dead center, Wes Anderson style, balanced frame",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 148,
+      "category_id": 9,
+      "keyword_en": "framing within frame",
+      "keyword_zh": "框中框",
+      "description": "利用门框、窗户、拱门等元素在画面内形成第二层框架，增强层次感与叙事焦点。",
+      "tags": [
+        "构图",
+        "框架",
+        "层次"
+      ],
+      "example_prompt": "subject framed through ancient stone archway, frame within frame composition, depth layers, atmospheric framing",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 147,
+      "category_id": 9,
+      "keyword_en": "leading lines",
+      "keyword_zh": "引导线",
+      "description": "利用道路、铁轨、走廊等线条引导视线指向主体，增强画面深度与视觉流动感。",
+      "tags": [
+        "构图",
+        "引导",
+        "深度"
+      ],
+      "example_prompt": "leading lines of railway track converging to distant figure, perspective depth, misty atmosphere, visual journey",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 150,
+      "category_id": 9,
+      "keyword_en": "negative space",
+      "keyword_zh": "负空间",
+      "description": "主体周围大量留白，以空旷衬托主体的孤立感、孤独感或静谧美。",
+      "tags": [
+        "构图",
+        "留白",
+        "极简"
+      ],
+      "example_prompt": "tiny figure against vast white snow field, extreme negative space, isolation, minimalist composition, silence",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 149,
+      "category_id": 9,
+      "keyword_en": "symmetrical composition",
+      "keyword_zh": "对称构图",
+      "description": "画面左右或上下完全对称，营造平静、庄重或超现实的视觉效果。",
+      "tags": [
+        "构图",
+        "对称",
+        "平衡"
+      ],
+      "example_prompt": "perfectly symmetrical grand hotel lobby, mirror reflection on polished floor, Wes Anderson aesthetic, centered axis",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 153,
+      "category_id": 9,
+      "keyword_en": "two-shot",
+      "keyword_zh": "双人镜头",
+      "description": "画面内同时包含两个人物，用于展示人物关系与互动，是对话场景的经典构图。",
+      "tags": [
+        "构图",
+        "人物关系",
+        "对话"
+      ],
+      "example_prompt": "two-shot of couple facing each other in argument, both faces visible, tension between them, indoor dramatic lighting",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 152,
+      "category_id": 9,
+      "keyword_en": "diagonal composition",
+      "keyword_zh": "斜线构图",
+      "description": "以对角线方向排列主体或视觉元素，赋予画面动感、紧张感与不稳定的力量感。",
+      "tags": [
+        "构图",
+        "动感",
+        "张力"
+      ],
+      "example_prompt": "diagonal composition of falling debris, dynamic angle, tension and movement, explosive energy, action scene",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 151,
+      "category_id": 9,
+      "keyword_en": "foreground interest",
+      "keyword_zh": "前景层次",
+      "description": "在主体前方放置前景元素，增强画面的空间纵深感与视觉层次。",
+      "tags": [
+        "构图",
+        "前景",
+        "纵深"
+      ],
+      "example_prompt": "flower foreground with blurred couple in background, depth of field layers, shallow focus, romantic bokeh scene",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 154,
+      "category_id": 9,
+      "keyword_en": "golden ratio",
+      "keyword_zh": "黄金比例",
+      "description": "基于斐波那契螺旋的自然美学比例，主体位于黄金螺旋的核心，视觉上最和谐自然。",
+      "tags": [
+        "构图",
+        "美学",
+        "自然"
+      ],
+      "example_prompt": "composition following golden spiral ratio, subject at fibonacci center, naturally harmonious framing, classical aesthetics",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 162,
+      "category_id": 10,
+      "keyword_en": "montage",
+      "keyword_zh": "蒙太奇",
+      "description": "将一系列短镜头快速剪辑在一起，通过对比、联系或时间压缩传达情感或信息，是AI短剧的核心叙事手法。",
+      "tags": [
+        "漫剧",
+        "剪辑",
+        "叙事"
+      ],
+      "example_prompt": "training montage sequence, series of quick cuts showing progression, upbeat rhythm, character development, AI drama style",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 155,
+      "category_id": 10,
+      "keyword_en": "reaction shot",
+      "keyword_zh": "反应镜头",
+      "description": "AI短剧中展示人物对事件或对话反应的镜头，强化情绪对比与喜剧/戏剧效果。",
+      "tags": [
+        "漫剧",
+        "情绪",
+        "反应"
+      ],
+      "example_prompt": "reaction shot of character face showing shock and disbelief, exaggerated expression, comedic timing, close-up portrait",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 156,
+      "category_id": 10,
+      "keyword_en": "reveal shot",
+      "keyword_zh": "揭示镜头",
+      "description": "通过运镜或剪辑逐步揭露隐藏信息，制造悬念解除的惊喜感，是短剧中最常用的叙事技法。",
+      "tags": [
+        "漫剧",
+        "悬念",
+        "叙事"
+      ],
+      "example_prompt": "reveal shot panning to show hidden character standing behind door, dramatic revelation, suspense building, AI drama style",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 158,
+      "category_id": 10,
+      "keyword_en": "cutaway shot",
+      "keyword_zh": "切换镜头",
+      "description": "从主场景切换到相关但不在场景内的画面，用于补充信息、建立因果或制造对比，常见于搞笑短剧。",
+      "tags": [
+        "漫剧",
+        "剪辑",
+        "对比"
+      ],
+      "example_prompt": "cutaway shot to imagined scenario while character talks, fantasy sequence insert, comedic contrast, AI short drama",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 164,
+      "category_id": 10,
+      "keyword_en": "establishing shot",
+      "keyword_zh": "定场镜头",
+      "description": "在新场景开始时展示全景环境，让观众了解故事发生的地点与时间，是每个场景的开场白。",
+      "tags": [
+        "漫剧",
+        "场景",
+        "开场"
+      ],
+      "example_prompt": "establishing shot of ancient Chinese palace exterior at dawn, full environment reveal, AI drama opener, location setting",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 160,
+      "category_id": 10,
+      "keyword_en": "freeze frame",
+      "keyword_zh": "定格镜头",
+      "description": "画面突然静止定格，常用于AI短剧中人物登场介绍、关键时刻强调或喜剧节点的停顿效果。",
+      "tags": [
+        "漫剧",
+        "定格",
+        "强调"
+      ],
+      "example_prompt": "freeze frame of character in powerful pose, action frozen, name title card appearing, character introduction style",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 157,
+      "category_id": 10,
+      "keyword_en": "insert shot",
+      "keyword_zh": "插入镜头",
+      "description": "在主镜头序列中插入关键细节（如手机信息、表情特写），补充叙事信息，是漫剧常见的快切技法。",
+      "tags": [
+        "漫剧",
+        "细节",
+        "叙事"
+      ],
+      "example_prompt": "insert shot of phone screen showing shocking message, close detail cut-in, narrative information reveal, drama style",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 161,
+      "category_id": 10,
+      "keyword_en": "rack focus",
+      "keyword_zh": "焦点转移",
+      "description": "画面从一个平面的清晰快速转移到另一个平面，前景模糊背景清晰或反之，引导观众注意力转移。",
+      "tags": [
+        "漫剧",
+        "焦点",
+        "注意力"
+      ],
+      "example_prompt": "rack focus from foreground blurry flower to sharp background character, focus pull, depth of field shift, dramatic reveal",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 159,
+      "category_id": 10,
+      "keyword_en": "split screen shot",
+      "keyword_zh": "分屏镜头",
+      "description": "画面分割为多个区域同时展示不同场景，常用于展示两人通话、平行叙事或对比关系。",
+      "tags": [
+        "漫剧",
+        "分屏",
+        "平行"
+      ],
+      "example_prompt": "split screen showing two characters on phone call simultaneously, parallel action, contrasting reactions, drama style",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 163,
+      "category_id": 10,
+      "keyword_en": "match cut",
+      "keyword_zh": "匹配剪辑",
+      "description": "两个镜头在形状、动作或主题上高度相似，形成视觉上的流畅连接，常用于优雅的场景转换。",
+      "tags": [
+        "漫剧",
+        "剪辑",
+        "流畅"
+      ],
+      "example_prompt": "match cut from spinning coin to spinning planet, shape transition, seamless edit, creative scene transition",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 200,
+      "category_id": 11,
+      "keyword_en": "cinematic photo style",
+      "keyword_zh": "电影剧照风格",
+      "description": "电影剧照的专业质感，色调统一、构图精心、情绪饱满，带有叙事性的一格画面。",
+      "tags": [
+        "摄影",
+        "电影",
+        "叙事"
+      ],
+      "example_prompt": "cinematic photo style film still, letter-box aspect ratio, color graded teal-orange, dramatic moment frozen, narrative scene",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 346,
+      "category_id": 11,
+      "keyword_en": "B/W style",
+      "keyword_zh": "黑白风格",
+      "description": "黑白摄影或绘画风格，去除色彩专注于光影与构图，展现纯粹的形式美感与时间感。",
+      "tags": [
+        "摄影",
+        "黑白",
+        "经典"
+      ],
+      "example_prompt": "black and white photography style, high contrast monochrome, dramatic shadows, timeless noir aesthetic, Ansel Adams inspired landscape",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 192,
+      "category_id": 11,
+      "keyword_en": "DSLR style",
+      "keyword_zh": "数码单反风格",
+      "description": "数字单反相机拍摄的高清晰度照片风格，画质锐利、色彩准确，是专业摄影的标准质感。",
+      "tags": [
+        "摄影",
+        "专业",
+        "清晰"
+      ],
+      "example_prompt": "DSLR style portrait photography, sharp focus, accurate color rendition, professional camera quality, natural skin tones",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 195,
+      "category_id": 11,
+      "keyword_en": "Fujifilm superia style",
+      "keyword_zh": "富士底片风格",
+      "description": "富士 Superia 彩色底片的暖绿色调，肤色自然柔和，颗粒细腻，是胶片爱好者最钟爱的人像底片之一。",
+      "tags": [
+        "摄影",
+        "胶片",
+        "温暖"
+      ],
+      "example_prompt": "Fujifilm Superia film style, warm greenish tones, natural skin, fine grain, analog film aesthetic, soft portrait quality",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 193,
+      "category_id": 11,
+      "keyword_en": "Polaroid style",
+      "keyword_zh": "拍立得风格",
+      "description": "宝丽来拍立得相机的即时成像风格，色彩微微褪色、四边留有白边，充满温馨的即兴感。",
+      "tags": [
+        "摄影",
+        "复古",
+        "温馨"
+      ],
+      "example_prompt": "Polaroid instant photo style, slightly faded colors, white border frame, warm nostalgic tone, candid moment captured",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 203,
+      "category_id": 11,
+      "keyword_en": "macro lens",
+      "keyword_zh": "微距镜头",
+      "description": "极近距离拍摄微小物体的镜头效果，展现昆虫触须、花粉粒等肉眼难见的精微世界。",
+      "tags": [
+        "摄影",
+        "微距",
+        "细节"
+      ],
+      "example_prompt": "macro lens extreme closeup of butterfly wing scales, individual scale detail visible, shallow depth of field, natural light",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 345,
+      "category_id": 11,
+      "keyword_en": "movie style",
+      "keyword_zh": "电影风",
+      "description": "模拟电影胶片拍摄的视觉效果，宽画幅比例、电影色调与专业场景布光，充满故事感。",
+      "tags": [
+        "摄影",
+        "电影",
+        "叙事"
+      ],
+      "example_prompt": "movie style cinematic scene, widescreen 2.35:1 ratio, film color grading, anamorphic flare, professional set lighting, narrative atmosphere",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 202,
+      "category_id": 11,
+      "keyword_en": "multiple exposure",
+      "keyword_zh": "多重曝光",
+      "description": "将两张或多张不同内容的照片叠加在同一画面，产生梦幻的半透明叠影效果。",
+      "tags": [
+        "摄影",
+        "创意",
+        "叠加"
+      ],
+      "example_prompt": "multiple exposure portrait with forest overlaid on face, dreamy double exposure, silhouette blending with nature, artistic composite",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 201,
+      "category_id": 11,
+      "keyword_en": "portrait photography",
+      "keyword_zh": "人像摄影",
+      "description": "以人物为主体的专业摄影风格，注重面部表情与肢体语言，浅景深虚化背景突出主体。",
+      "tags": [
+        "摄影",
+        "人像",
+        "专业"
+      ],
+      "example_prompt": "portrait photography, shallow depth of field, background bokeh, natural window light, expressive face, professional studio quality",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 197,
+      "category_id": 11,
+      "keyword_en": "vintage photo style",
+      "keyword_zh": "复古照片风格",
+      "description": "模拟老旧照片的泛黄褪色效果，色彩偏黄绿，对比降低，散发岁月沉淀的历史感。",
+      "tags": [
+        "摄影",
+        "复古",
+        "历史"
+      ],
+      "example_prompt": "vintage photo style, yellowed and faded tones, reduced contrast, aged paper texture, nostalgic historical photograph look",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 199,
+      "category_id": 11,
+      "keyword_en": "Holga photography",
+      "keyword_zh": "Holga 相机风格",
+      "description": "Holga 塑料玩具相机的漏光、重度暗角与模糊效果，刻意的不完美营造出独特的梦幻质感。",
+      "tags": [
+        "摄影",
+        "玩具",
+        "梦幻"
+      ],
+      "example_prompt": "Holga toy camera effect, light leaks, heavy corner vignetting, soft focus blur, medium format lo-fi charm, ethereal portrait",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 196,
+      "category_id": 11,
+      "keyword_en": "LOMO style",
+      "keyword_zh": "LOMO 相机风格",
+      "description": "LOMO 相机特有的强烈暗角、高饱和与色彩串扰效果，自由随性的拍摄美学，充满实验性质。",
+      "tags": [
+        "摄影",
+        "胶片",
+        "实验"
+      ],
+      "example_prompt": "LOMO camera style photography, heavy vignette corners, oversaturated colors, light leaks, spontaneous street photography feel",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 198,
+      "category_id": 11,
+      "keyword_en": "antique photo style",
+      "keyword_zh": "仿古照片风格",
+      "description": "比复古更强烈的仿古效果，模拟19世纪早期摄影的银版或蛋白工艺，深棕色调与暗部细节损失。",
+      "tags": [
+        "摄影",
+        "历史",
+        "珍贵"
+      ],
+      "example_prompt": "antique daguerreotype photo style, sepia toning, oxidized silver effect, 1850s portrait aesthetic, formal pose, scratched plate",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 194,
+      "category_id": 11,
+      "keyword_en": "gopro style",
+      "keyword_zh": "GoPro 风格",
+      "description": "GoPro 运动相机的超广角视角，略带桶形畸变，动感十足，常用于极限运动与沉浸式第一视角。",
+      "tags": [
+        "摄影",
+        "运动",
+        "广角"
+      ],
+      "example_prompt": "GoPro style action shot, wide angle distortion, extreme sports perspective, raw energy, first person view, dynamic motion",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 338,
+      "category_id": 11,
+      "keyword_en": "group photo",
+      "keyword_zh": "集体照",
+      "description": "多人合影的团体照片风格，所有人面朝镜头的正式或半正式集体留影。",
+      "tags": [
+        "摄影",
+        "人物",
+        "集体"
+      ],
+      "example_prompt": "group photo of diverse team standing together, all facing camera, bright background, professional group portrait style",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 337,
+      "category_id": 11,
+      "keyword_en": "life photo",
+      "keyword_zh": "生活照",
+      "description": "日常生活场景的轻松抓拍风格，不刻意摆拍，自然真实的生活瞬间记录。",
+      "tags": [
+        "摄影",
+        "日常",
+        "随拍"
+      ],
+      "example_prompt": "life photo style candid shot of family at picnic, natural unposed moment, bright afternoon, warm snapshot feel",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 204,
+      "category_id": 11,
+      "keyword_en": "panning",
+      "keyword_zh": "追焦拍摄",
+      "description": "镜头跟随运动主体横向移动，使主体清晰而背景呈现水平动态模糊，表现速度感。",
+      "tags": [
+        "摄影",
+        "运动",
+        "速度"
+      ],
+      "example_prompt": "panning shot of racing motorcycle, subject sharp, background horizontal motion blur streaks, speed sensation, action sports",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 339,
+      "category_id": 11,
+      "keyword_en": "selfie photo",
+      "keyword_zh": "自拍照",
+      "description": "手持手机自拍的视角效果，画面有典型的手臂入镜或仰角构图，亲密随性。",
+      "tags": [
+        "摄影",
+        "自拍",
+        "社交"
+      ],
+      "example_prompt": "selfie photo style, person holding phone camera toward themselves, casual urban background, social media portrait feel",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 340,
+      "category_id": 11,
+      "keyword_en": "sports photography",
+      "keyword_zh": "运动摄影",
+      "description": "捕捉运动员动态瞬间的专业摄影风格，高速快门冻结运动，充满张力与力量感。",
+      "tags": [
+        "摄影",
+        "运动",
+        "动态"
+      ],
+      "example_prompt": "sports photography action shot of sprinter at finish line, frozen motion, 1/2000s shutter effect, dynamic energy, athletic peak moment",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 341,
+      "category_id": 11,
+      "keyword_en": "still life photo",
+      "keyword_zh": "静物摄影",
+      "description": "精心布置的静物拍摄风格，通过构图与光线将日常物品转化为视觉艺术品。",
+      "tags": [
+        "摄影",
+        "静物",
+        "商业"
+      ],
+      "example_prompt": "still life photography, artfully arranged fruits and vase, dramatic side lighting, shallow depth of field, fine art still life composition",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 343,
+      "category_id": 11,
+      "keyword_en": "Albumen print",
+      "keyword_zh": "蛋白映像",
+      "description": "1847年发明的蛋白感光照片，比纸基负片更清晰细腻，淡紫棕色调，维多利亚时代的经典相片质感。",
+      "tags": [
+        "摄影",
+        "历史",
+        "复古"
+      ],
+      "example_prompt": "Albumen print photograph style, mid-19th century albumen silver print, warm purple-brown tones, fine detail, Victorian portrait aesthetic",
+      "weight": 2,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 344,
+      "category_id": 11,
+      "keyword_en": "Anthotype print",
+      "keyword_zh": "植物感光相纸",
+      "description": "利用植物汁液制作的早期感光方法，独特的有机色调与手工质感，充满自然艺术气息。",
+      "tags": [
+        "摄影",
+        "历史",
+        "艺术"
+      ],
+      "example_prompt": "Anthotype photographic print, plant-based emulsion, organic muted earth tones, botanical art photography, handmade historical process",
+      "weight": 2,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 342,
+      "category_id": 11,
+      "keyword_en": "Calotype print",
+      "keyword_zh": "纸基负片法",
+      "description": "1841年发明的早期照片冲洗方法，棕褐色调、略显模糊的有机质感，充满19世纪历史感。",
+      "tags": [
+        "摄影",
+        "历史",
+        "复古"
+      ],
+      "example_prompt": "Calotype print photographic style, early 1840s paper negative process, warm sepia tones, soft focus, historical Victorian era portrait",
+      "weight": 2,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 214,
+      "category_id": 12,
+      "keyword_en": "Hayao Miyazaki style",
+      "keyword_zh": "宫崎骏风格",
+      "description": "吉卜力工作室创始人宫崎骏的温暖奇幻风格，精灵自然、飞行场景与成长主题的诗意表达。",
+      "tags": [
+        "插画家",
+        "吉卜力",
+        "奇幻"
+      ],
+      "example_prompt": "Hayao Miyazaki Studio Ghibli style, lush green spirit forest, flying sequences, curious young protagonist, hand-painted backgrounds",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 246,
+      "category_id": 12,
+      "keyword_en": "Leonardo da Vinci style",
+      "keyword_zh": "达芬奇风格",
+      "description": "文艺复兴全才达芬奇的精准科学素描与柔雾晕染技法，人体解剖的精确性与蒙娜丽莎的神秘微笑。",
+      "tags": [
+        "艺术家",
+        "文艺复兴",
+        "经典"
+      ],
+      "example_prompt": "Leonardo da Vinci style anatomical drawing, sfumato technique, Renaissance master study, detailed pen and ink on aged paper",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 213,
+      "category_id": 12,
+      "keyword_en": "Tim Burton style",
+      "keyword_zh": "蒂姆伯顿风格",
+      "description": "电影导演蒂姆·伯顿的黑暗童话美学，细长拉伸的身形、大眼睛与哥特忧郁的奇幻世界。",
+      "tags": [
+        "插画家",
+        "黑暗",
+        "奇幻"
+      ],
+      "example_prompt": "Tim Burton style illustration, elongated gothic characters, spiraling dark trees, striped costume, big sad eyes, Halloween whimsy",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 205,
+      "category_id": 12,
+      "keyword_en": "Vincent van Gogh style",
+      "keyword_zh": "梵高风格",
+      "description": "梵高标志性的漩涡状笔触、强烈色彩对比与厚涂技法，充满情感张力的后印象派代表。",
+      "tags": [
+        "艺术家",
+        "后印象派",
+        "情感"
+      ],
+      "example_prompt": "Vincent van Gogh painting style, swirling brushstrokes, intense impasto texture, starry night sky, vibrant yellow and blue",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 208,
+      "category_id": 12,
+      "keyword_en": "Alfons Mucha style",
+      "keyword_zh": "慕夏风格",
+      "description": "捷克新艺术运动插画家慕夏的唯美风格，圆形构图、鲜花装饰边框与优雅女性形象。",
+      "tags": [
+        "艺术家",
+        "新艺术",
+        "唯美"
+      ],
+      "example_prompt": "Alphonse Mucha Art Nouveau style, ornamental floral border, graceful female figure, pastel palette, decorative circular frame",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 212,
+      "category_id": 12,
+      "keyword_en": "Andy Warhol style",
+      "keyword_zh": "安迪沃霍尔风格",
+      "description": "波普艺术巨匠沃霍尔的丝网印刷风格，重复的商品图像、平涂色块与明星文化的批量复制。",
+      "tags": [
+        "艺术家",
+        "波普",
+        "商业"
+      ],
+      "example_prompt": "Andy Warhol Pop Art style, silkscreen print effect, repeated portrait grid, flat bold colors, celebrity image, commercial aesthetic",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 206,
+      "category_id": 12,
+      "keyword_en": "Claude Monet style",
+      "keyword_zh": "莫内风格",
+      "description": "莫内印象派的柔和光影捕捉，水面反光、睡莲与花园的细腻氛围，色彩如梦似幻。",
+      "tags": [
+        "艺术家",
+        "印象派",
+        "自然"
+      ],
+      "example_prompt": "Claude Monet impressionist style, soft water reflections, water lilies, loose pastel brushwork, garden pond atmosphere",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 252,
+      "category_id": 12,
+      "keyword_en": "Degas style",
+      "keyword_zh": "德加风格",
+      "description": "印象派画家德加的芭蕾舞者系列，独特的俯拍构图与舞台灯光，捕捉动作瞬间的优雅。",
+      "tags": [
+        "艺术家",
+        "印象派",
+        "舞蹈"
+      ],
+      "example_prompt": "Edgar Degas style ballet painting, backstage glimpse of dancers, pastel medium, unusual cropped angles, stage footlights atmosphere",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 215,
+      "category_id": 12,
+      "keyword_en": "Eric Carle style",
+      "keyword_zh": "艾瑞卡尔风格",
+      "description": "《好饿的毛毛虫》作者的拼贴插画风，手工染色纸张的丰富肌理与鲜艳明快的儿童书美学。",
+      "tags": [
+        "插画家",
+        "儿童",
+        "拼贴"
+      ],
+      "example_prompt": "Eric Carle collage illustration style, textured painted paper, bright primary colors, simple animal shapes, children book aesthetic",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 262,
+      "category_id": 12,
+      "keyword_en": "Frida Kahlo style",
+      "keyword_zh": "弗里达卡罗风格",
+      "description": "墨西哥女画家弗里达的自画像系列，融合墨西哥民间艺术与身体痛苦的个人叙事，鲜艳的民族服饰。",
+      "tags": [
+        "艺术家",
+        "自画像",
+        "墨西哥"
+      ],
+      "example_prompt": "Frida Kahlo self-portrait style, unibrow, Mexican folk art flowers in hair, surreal painful imagery, vibrant traditional huipil dress",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 209,
+      "category_id": 12,
+      "keyword_en": "Katsushika Hokusai style",
+      "keyword_zh": "葛饰北斋风格",
+      "description": "日本浮世绘大师北斋的构图风格，神奈川冲浪里的豪壮海浪与富士山的完美比例传世。",
+      "tags": [
+        "艺术家",
+        "浮世绘",
+        "日本"
+      ],
+      "example_prompt": "Katsushika Hokusai ukiyo-e style, bold wave composition, Mount Fuji framing, woodblock print colors, Japanese classical art",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 211,
+      "category_id": 12,
+      "keyword_en": "Kusama Yayoi style",
+      "keyword_zh": "草间弥生风格",
+      "description": "日本前卫艺术家草间弥生的无限圆点与网状图案，强迫症式的重复扩散带来消解自我的宇宙感。",
+      "tags": [
+        "艺术家",
+        "当代",
+        "图案"
+      ],
+      "example_prompt": "Yayoi Kusama polka dot infinity style, repetitive dots covering every surface, psychedelic pattern, infinite space illusion, vivid colors",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 219,
+      "category_id": 12,
+      "keyword_en": "M. C. Escher style",
+      "keyword_zh": "M.C.埃舍尔风格",
+      "description": "荷兰版画家埃舍尔以数学为基础的不可能图形，楼梯循环、手绘手与镶嵌图案的悖论之美。",
+      "tags": [
+        "插画家",
+        "数学",
+        "错觉"
+      ],
+      "example_prompt": "M.C. Escher impossible architecture, tessellation pattern, infinite staircase, hand drawing itself, black and white lithograph style",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 261,
+      "category_id": 12,
+      "keyword_en": "Magritte style",
+      "keyword_zh": "马格利特风格",
+      "description": "比利时超现实主义画家马格利特，把日常物体置于荒诞语境，《这不是烟斗》式的哲学视觉悖论。",
+      "tags": [
+        "艺术家",
+        "超现实",
+        "哲学"
+      ],
+      "example_prompt": "René Magritte surrealism style, suited man with bowler hat, green apple obscuring face, day and night simultaneous, philosophical visual paradox",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 260,
+      "category_id": 12,
+      "keyword_en": "Marc Chagall style",
+      "keyword_zh": "夏卡尔风格",
+      "description": "俄裔画家夏卡尔的飞翔恋人与圆月故乡，梦幻的空中漂浮场景与浓烈的民间色彩情感。",
+      "tags": [
+        "艺术家",
+        "梦幻",
+        "浪漫"
+      ],
+      "example_prompt": "Marc Chagall style dreamscape, floating lovers above village, blue moon background, folk art color warmth, whimsical gravity-defying composition",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 217,
+      "category_id": 12,
+      "keyword_en": "Mary Blair style",
+      "keyword_zh": "玛丽布莱尔风格",
+      "description": "迪士尼黄金年代艺术家玛丽·布莱尔的糖果色概念艺术，大胆的色彩搭配与简化的装饰图形。",
+      "tags": [
+        "插画家",
+        "迪士尼",
+        "糖果色"
+      ],
+      "example_prompt": "Mary Blair Disney concept art style, bold candy colors, simplified geometric shapes, whimsical children illustration, retro 1950s charm",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 257,
+      "category_id": 12,
+      "keyword_en": "Matisse style",
+      "keyword_zh": "马蒂斯风格",
+      "description": "野兽派领袖马蒂斯的纯色块面构成与剪纸艺术，简化形体与大胆配色的喜悦之美。",
+      "tags": [
+        "艺术家",
+        "野兽派",
+        "色彩"
+      ],
+      "example_prompt": "Henri Matisse fauvism style, bold flat color shapes, dance figures in circle, vibrant non-realistic palette, joyful decorative simplicity",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 247,
+      "category_id": 12,
+      "keyword_en": "Michelangelo style",
+      "keyword_zh": "米开朗基罗风格",
+      "description": "雕塑感极强的人体造型，肌肉饱满有力，西斯廷礼拜堂天顶画的史诗壮阔。",
+      "tags": [
+        "艺术家",
+        "文艺复兴",
+        "雕塑感"
+      ],
+      "example_prompt": "Michelangelo style fresco painting, powerful muscular figures, dramatic foreshortening, Sistine Chapel ceiling aesthetics",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 258,
+      "category_id": 12,
+      "keyword_en": "Munch style",
+      "keyword_zh": "孟克风格",
+      "description": "挪威表现主义画家孟克，《呐喊》的扭曲天空与痛苦面孔，将心理恐惧转化为视觉震撼。",
+      "tags": [
+        "艺术家",
+        "表现主义",
+        "恐惧"
+      ],
+      "example_prompt": "Edvard Munch expressionist style, The Scream anguish face, swirling turbulent sky, wavy distorted forms, existential anxiety, screaming colors",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 221,
+      "category_id": 12,
+      "keyword_en": "Murakami Takashi style",
+      "keyword_zh": "村上隆风格",
+      "description": "日本超扁平艺术创始人村上隆，融合传统日本图案与西方流行文化，笑脸花朵与奢华品牌联动。",
+      "tags": [
+        "艺术家",
+        "日本",
+        "超扁平"
+      ],
+      "example_prompt": "Takashi Murakami Superflat style, smiling flowers, anime-kawaii aesthetics, flat colorful patterns, luxury brand mashup, pop art Japan",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 220,
+      "category_id": 12,
+      "keyword_en": "Nara Yoshitomo style",
+      "keyword_zh": "奈良美智风格",
+      "description": "日本当代艺术家奈良美智的大眼大头娃娃风格，单纯外表下蕴含叛逆与孤独的复杂情绪。",
+      "tags": [
+        "艺术家",
+        "日本",
+        "当代"
+      ],
+      "example_prompt": "Yoshitomo Nara style big-eyed doll character, defiant expression, simple background, cartoon face with hidden depth, neo-pop art",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 265,
+      "category_id": 12,
+      "keyword_en": "Ninagawa Mika style",
+      "keyword_zh": "蜷川实花风格",
+      "description": "日本女摄影师蜷川实花的高饱和度花卉摄影，金鱼与樱花的过度绚烂视觉，华丽而充满感官刺激。",
+      "tags": [
+        "艺术家",
+        "摄影",
+        "日本"
+      ],
+      "example_prompt": "Mika Ninagawa photography style, oversaturated flowers and goldfish, vivid feminine colors, lush floral explosion, Japanese sensory overload",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 248,
+      "category_id": 12,
+      "keyword_en": "Raphael style",
+      "keyword_zh": "拉斐尔风格",
+      "description": "文艺复兴三杰之一，优雅和谐的圣母像构图，温柔的光线与完美的人体比例。",
+      "tags": [
+        "艺术家",
+        "文艺复兴",
+        "优雅"
+      ],
+      "example_prompt": "Raphael Renaissance Madonna style, gentle serene expression, harmonious composition, soft sfumato light, classical idealized beauty",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 251,
+      "category_id": 12,
+      "keyword_en": "Renoir style",
+      "keyword_zh": "雷诺瓦风格",
+      "description": "印象派大师雷诺瓦对生活欢愉的歌颂，光影跳跃在舞会与野餐上，温暖粉嫩的皮肤色调。",
+      "tags": [
+        "艺术家",
+        "印象派",
+        "欢愉"
+      ],
+      "example_prompt": "Pierre-Auguste Renoir impressionist style, dappled light on joyful figures, outdoor party scene, warm rosy skin tones, vivid brushwork",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 256,
+      "category_id": 12,
+      "keyword_en": "Rousseau style",
+      "keyword_zh": "卢梭风格",
+      "description": "素人艺术家卢梭的天真丛林幻境，密布的热带植物与神秘野兽，充满童话般的原始想象力。",
+      "tags": [
+        "艺术家",
+        "素人",
+        "丛林"
+      ],
+      "example_prompt": "Henri Rousseau naive jungle painting, flat lush tropical leaves, mysterious lion in moonlight, dreamlike primitivism, childlike wonder",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 207,
+      "category_id": 12,
+      "keyword_en": "Salvador Dali style",
+      "keyword_zh": "达利风格",
+      "description": "超现实主义大师达利的荒诞梦境景象，融化的钟表、奇异的肉体变形与沙漠风景组合。",
+      "tags": [
+        "艺术家",
+        "超现实",
+        "梦境"
+      ],
+      "example_prompt": "Salvador Dali surrealist style, melting objects in desert landscape, hyper-realistic dreamlike scene, bizarre symbolic imagery",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 253,
+      "category_id": 12,
+      "keyword_en": "Cezanne style",
+      "keyword_zh": "塞尚风格",
+      "description": "后印象派大师塞尚将自然物体几何化，圣维克多山的多角度同时呈现，是立体主义的先驱。",
+      "tags": [
+        "艺术家",
+        "后印象派",
+        "几何"
+      ],
+      "example_prompt": "Paul Cezanne style landscape, geometric simplification of forms, multiple perspectives, Mont Sainte-Victoire series, blocky structured brushwork",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 216,
+      "category_id": 12,
+      "keyword_en": "Edward Gorey style",
+      "keyword_zh": "爱德华戈里风格",
+      "description": "以细密交叉线条著称的美国插画家，黑白描绘维多利亚式的荒诞幽默场景，带有英式忧郁。",
+      "tags": [
+        "插画家",
+        "黑暗",
+        "线条"
+      ],
+      "example_prompt": "Edward Gorey illustration style, fine crosshatching, black and white Victorian grotesque, alphabet book aesthetics, darkly comic",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 254,
+      "category_id": 12,
+      "keyword_en": "Gauguin style",
+      "keyword_zh": "高更风格",
+      "description": "逃离文明的高更在塔希提岛的创作，浓烈的热带色彩、平涂色块与土著的神秘生命力。",
+      "tags": [
+        "艺术家",
+        "后印象派",
+        "热带"
+      ],
+      "example_prompt": "Paul Gauguin Tahiti style, flat bold tropical colors, Polynesian figures, exotic paradise, decorative simplified forms, spiritual primitivity",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 266,
+      "category_id": 12,
+      "keyword_en": "Giovanni Bellini style",
+      "keyword_zh": "贝里尼风格",
+      "description": "威尼斯文艺复兴画家贝里尼，温润的圣母子像与宁静的风景背景，柔和光线展现宗教的安宁。",
+      "tags": [
+        "艺术家",
+        "文艺复兴",
+        "宗教"
+      ],
+      "example_prompt": "Giovanni Bellini Venetian Renaissance style, tender Madonna and Child, serene landscape background, golden warm light, devotional painting quality",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 249,
+      "category_id": 12,
+      "keyword_en": "Goya style",
+      "keyword_zh": "哥雅风格",
+      "description": "西班牙宫廷画家哥雅晚期的黑色绘画，暗黑荒诞的幻象与战争的残酷现实主义表达。",
+      "tags": [
+        "艺术家",
+        "暗黑",
+        "西班牙"
+      ],
+      "example_prompt": "Goya dark paintings style, Saturn devouring his son imagery, grim black palette, nightmarish figures, raw emotional brutality",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 263,
+      "category_id": 12,
+      "keyword_en": "Joan Cornellà style",
+      "keyword_zh": "胡安科内利亚风格",
+      "description": "西班牙插画家科内利亚的病态幽默漫画，微笑面孔与极端暴力的反差形成独特的荒诞黑色幽默。",
+      "tags": [
+        "艺术家",
+        "黑色幽默",
+        "漫画"
+      ],
+      "example_prompt": "Joan Cornellà dark humor comic style, blank smiling faces, cheerful colors, disturbing violent scenarios, flat graphic satirical illustration",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 250,
+      "category_id": 12,
+      "keyword_en": "Millet style",
+      "keyword_zh": "米勒风格",
+      "description": "法国写实主义画家米勒描绘农民劳动的史诗，《拾穗》的暮色与劳苦的尊严感。",
+      "tags": [
+        "艺术家",
+        "写实",
+        "劳动"
+      ],
+      "example_prompt": "Jean-François Millet style peasant painting, golden dusk over wheat field, dignified working figures, earthy palette, rural realism",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 259,
+      "category_id": 12,
+      "keyword_en": "Miro style",
+      "keyword_zh": "米罗风格",
+      "description": "超现实主义画家米罗的生物形态符号，鲜艳的原色配以有机曲线符号，充满游戏性的宇宙语言。",
+      "tags": [
+        "艺术家",
+        "超现实",
+        "符号"
+      ],
+      "example_prompt": "Joan Miro surrealist style, biomorphic shapes floating on flat color field, primary colors, playful symbolic creatures, cosmic dream language",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 210,
+      "category_id": 12,
+      "keyword_en": "Pablo Picasso style",
+      "keyword_zh": "毕卡索风格",
+      "description": "立体主义奠基人毕卡索的多视角分解风格，面部五官错位重组，几何化的人体与物体。",
+      "tags": [
+        "艺术家",
+        "立体主义",
+        "前卫"
+      ],
+      "example_prompt": "Pablo Picasso Cubist style portrait, fractured geometric planes, multiple viewpoints simultaneously, muted earth tones with blue accents",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 218,
+      "category_id": 12,
+      "keyword_en": "Quentin Blake style",
+      "keyword_zh": "昆廷布莱克风格",
+      "description": "罗尔德·达尔书籍插画师的动态线条风格，歪斜的快笔素描与水彩上色，充满幽默生命力。",
+      "tags": [
+        "插画家",
+        "儿童",
+        "素描"
+      ],
+      "example_prompt": "Quentin Blake illustration style, energetic loose pen lines, watercolor wash, crooked wobbly figures, Roald Dahl books aesthetic",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 255,
+      "category_id": 12,
+      "keyword_en": "Seurat style",
+      "keyword_zh": "秀拉风格",
+      "description": "点彩画法创始人秀拉，用细密的彩色小点精心构建画面，科学化的色彩混合理论。",
+      "tags": [
+        "艺术家",
+        "点彩",
+        "科学"
+      ],
+      "example_prompt": "Georges Seurat pointillism style, tiny colored dots forming image, Grande Jatte Sunday afternoon, methodical systematic color theory",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 264,
+      "category_id": 12,
+      "keyword_en": "Tadanori Yokoo style",
+      "keyword_zh": "横尾忠则风格",
+      "description": "日本平面设计师横尾忠则，将浮世绘传统与西方流行文化融合，迷幻的混搭拼贴海报美学。",
+      "tags": [
+        "艺术家",
+        "日本",
+        "海报"
+      ],
+      "example_prompt": "Tadanori Yokoo psychedelic poster style, Japanese woodblock meets Pop Art, surreal cultural collage, vivid contrasting colors, retro 1960s graphics",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 228,
+      "category_id": 13,
+      "keyword_en": "ink drawing",
+      "keyword_zh": "水墨画",
+      "description": "以墨汁为主的东方绘画传统，讲究笔墨浓淡与留白意境，山水花鸟的写意表达。",
+      "tags": [
+        "媒材",
+        "东方",
+        "写意"
+      ],
+      "example_prompt": "Chinese ink brush painting, monochrome wash, misty mountain scene, bamboo and bird motifs, Zen meditation aesthetic, blank space",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 230,
+      "category_id": 13,
+      "keyword_en": "Gongbi painting",
+      "keyword_zh": "工笔画",
+      "description": "中国传统工笔画技法，用细腻的线条勾勒与多层染色，展现精致繁复的花鸟人物，与写意相对。",
+      "tags": [
+        "媒材",
+        "东方",
+        "精细"
+      ],
+      "example_prompt": "Chinese Gongbi fine brushwork painting, meticulous line drawing, layered mineral colors, lotus flowers and birds, Tang dynasty style",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 235,
+      "category_id": 13,
+      "keyword_en": "graffiti art",
+      "keyword_zh": "街头涂鸦",
+      "description": "城市街头的喷漆艺术，大型壁画、字母变形与社会批评，班克西与Banksy式的视觉表达。",
+      "tags": [
+        "媒材",
+        "街头",
+        "城市"
+      ],
+      "example_prompt": "graffiti mural style art, spray paint drips, urban wall texture, colorful wildstyle lettering, street art aesthetic, raw urban energy",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 233,
+      "category_id": 13,
+      "keyword_en": "hand drawing",
+      "keyword_zh": "手绘风格",
+      "description": "强调手工绘制质感的视觉风格，保留笔触的不规整性与人工温度，区别于数字完稿的精确感。",
+      "tags": [
+        "媒材",
+        "手工",
+        "质感"
+      ],
+      "example_prompt": "hand drawn illustration style, visible hand-made lines, slight imperfection, warm artisan quality, personal notebook aesthetic",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 226,
+      "category_id": 13,
+      "keyword_en": "marker pen illustration",
+      "keyword_zh": "马克笔插画",
+      "description": "马克笔的流畅宽笔触与快速上色效果，色块分明、线条利落，常用于设计草稿与动漫色稿。",
+      "tags": [
+        "媒材",
+        "设计",
+        "速涂"
+      ],
+      "example_prompt": "marker pen illustration, clean flat color fills, sharp outline, anime character design sketch, Copic marker style rendering",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 234,
+      "category_id": 13,
+      "keyword_en": "one line drawing",
+      "keyword_zh": "单线轮廓画",
+      "description": "不抬笔连续绘制的单线艺术，用最简洁的一条线条捕捉形象的本质，极简主义的优雅。",
+      "tags": [
+        "媒材",
+        "极简",
+        "线条"
+      ],
+      "example_prompt": "one continuous line drawing of human figure, minimalist single stroke portrait, elegant simplicity, unbroken flowing line",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 222,
+      "category_id": 13,
+      "keyword_en": "pencil drawing",
+      "keyword_zh": "铅笔素描",
+      "description": "铅笔绘制的线条与明暗，从轻柔的 HB 到粗重的 6B，展现细腻的明暗层次与草稿质感。",
+      "tags": [
+        "媒材",
+        "基础",
+        "线条"
+      ],
+      "example_prompt": "pencil drawing portrait, detailed graphite shading, cross-hatching technique, white paper texture, artist sketchbook style",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 229,
+      "category_id": 13,
+      "keyword_en": "splashed ink",
+      "keyword_zh": "泼墨画",
+      "description": "用泼洒墨汁的方式创作，随机的墨迹在宣纸上晕染扩散，表现大气磅礴的写意山水精神。",
+      "tags": [
+        "媒材",
+        "东方",
+        "豪放"
+      ],
+      "example_prompt": "splashed ink landscape painting, dramatic ink splash on rice paper, mountains emerging from abstract black, Zhang Daqian style",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 365,
+      "category_id": 13,
+      "keyword_en": "Printmaking",
+      "keyword_zh": "版画",
+      "description": "通过刻板、丝印或蚀刻等版印工艺制作的图像，具有独特的版印纹理与重复性艺术质感。",
+      "tags": [
+        "绘画",
+        "版印",
+        "工艺"
+      ],
+      "example_prompt": "Printmaking art style, linocut or etching technique, ink transfer marks, limited color palette, textured print quality, artist proof aesthetic",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 227,
+      "category_id": 13,
+      "keyword_en": "acrylic painting",
+      "keyword_zh": "丙烯画",
+      "description": "丙烯颜料的鲜艳色泽与快速干燥特性，可薄涂透明层或厚涂肌理，兼具水彩与油画的灵活性。",
+      "tags": [
+        "媒材",
+        "颜料",
+        "现代"
+      ],
+      "example_prompt": "acrylic painting on canvas, bold color application, layered texture, contemporary art style, vibrant and opaque color blocking",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 223,
+      "category_id": 13,
+      "keyword_en": "charcoal drawing",
+      "keyword_zh": "炭笔素描",
+      "description": "炭条或炭笔绘制的厚重线条，可轻易涂抹晕染，表现强烈的明暗对比与粗犷有力的气质。",
+      "tags": [
+        "媒材",
+        "素描",
+        "粗犷"
+      ],
+      "example_prompt": "charcoal drawing figure study, smudged black tones, high contrast, life drawing aesthetic, rough textured paper, expressive strokes",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 224,
+      "category_id": 13,
+      "keyword_en": "color pencil drawing",
+      "keyword_zh": "彩色铅笔",
+      "description": "彩色铅笔的细腻叠色效果，透明轻盈的色层叠加与纸张纹理结合，带有手工温度。",
+      "tags": [
+        "媒材",
+        "彩色",
+        "细腻"
+      ],
+      "example_prompt": "color pencil illustration of botanical flowers, layered transparent colors, visible paper grain, delicate detailed linework, nature journal style",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 225,
+      "category_id": 13,
+      "keyword_en": "crayon drawing",
+      "keyword_zh": "蜡笔画",
+      "description": "蜡笔的蜡质涂层效果，色彩饱和但略显粗糙，唤起儿时手绘作品的纯真与自由感。",
+      "tags": [
+        "媒材",
+        "儿童",
+        "天真"
+      ],
+      "example_prompt": "crayon drawing of sunny house scene, waxy texture visible, bright saturated colors, childlike joyful aesthetic, thick outline strokes",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 232,
+      "category_id": 13,
+      "keyword_en": "doodle art",
+      "keyword_zh": "涂鸦艺术",
+      "description": "随手涂鸦的自由线条风格，无意识中产生的有趣图案，充满随性与创意活力。",
+      "tags": [
+        "媒材",
+        "随性",
+        "创意"
+      ],
+      "example_prompt": "doodle art style illustration, spontaneous pen line drawing, filled with tiny patterns and characters, black on white, playful chaos",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 368,
+      "category_id": 13,
+      "keyword_en": "scream bubble",
+      "keyword_zh": "尖叫泡泡",
+      "description": "漫画中表示大声呼喊或尖叫的锯齿状对话框，尖锐的边缘传达强烈的情绪与音量。",
+      "tags": [
+        "漫画",
+        "文字",
+        "特效"
+      ],
+      "example_prompt": "anime character with jagged scream bubble, shouting with spiky speech balloon, high energy exclamation, manga action scene, bold impact text",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 366,
+      "category_id": 13,
+      "keyword_en": "speech bubble",
+      "keyword_zh": "对话泡泡",
+      "description": "漫画对话框效果，圆形或椭圆形泡泡内含文字，经典的漫画叙事语言元素。",
+      "tags": [
+        "漫画",
+        "文字",
+        "特效"
+      ],
+      "example_prompt": "cartoon character with speech bubble saying text, comic dialogue balloon, manga panel style, expressive character talking, sequential art",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 367,
+      "category_id": 13,
+      "keyword_en": "thought bubble",
+      "keyword_zh": "思考泡泡",
+      "description": "漫画中表示人物内心思考的云朵状泡泡，通常由多个小圆圈连接到主泡泡。",
+      "tags": [
+        "漫画",
+        "文字",
+        "特效"
+      ],
+      "example_prompt": "character with thought bubble cloud above head, inner monologue visualization, comic strip panel, dreamy cloud shape containing idea",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 231,
+      "category_id": 13,
+      "keyword_en": "woodcut print",
+      "keyword_zh": "木刻版画",
+      "description": "在木板上雕刻后印刷的传统版画技法，刀刻痕迹形成粗犷有力的黑白图案，具有强烈的平面感。",
+      "tags": [
+        "媒材",
+        "版画",
+        "传统"
+      ],
+      "example_prompt": "woodcut print illustration, bold carved lines, high contrast black and white, textured ink impression, traditional relief print style",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 369,
+      "category_id": 13,
+      "keyword_en": "whisper bubble",
+      "keyword_zh": "悄悄话泡泡",
+      "description": "漫画中表示轻声说话或秘密对话的虚线或小圆点泡泡，传达私语的静悄感。",
+      "tags": [
+        "漫画",
+        "文字",
+        "特效"
+      ],
+      "example_prompt": "character using whisper bubble dotted speech balloon, secret conversation, small quiet text, manga panel intimate dialogue scene",
+      "weight": 2,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 236,
+      "category_id": 14,
+      "keyword_en": "bokeh",
+      "keyword_zh": "散景",
+      "description": "失焦区域产生的柔和光斑效果，前景清晰背景朦胧，浅景深创造的空间层次感与梦幻质感。",
+      "tags": [
+        "特效",
+        "摄影",
+        "梦幻"
+      ],
+      "example_prompt": "shallow depth of field bokeh background, sharp subject with soft circular light balls out of focus, dreamy portrait atmosphere",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 237,
+      "category_id": 14,
+      "keyword_en": "lens flare",
+      "keyword_zh": "镜头眩光",
+      "description": "强光源对准镜头时产生的放射状光晕与光斑，增添画面的阳光感与临场感。",
+      "tags": [
+        "特效",
+        "光线",
+        "阳光"
+      ],
+      "example_prompt": "lens flare effect from bright sun, rainbow optical artifacts, anamorphic blue streak, warm summer cinematic atmosphere",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 243,
+      "category_id": 14,
+      "keyword_en": "magic hour",
+      "keyword_zh": "魔幻时刻",
+      "description": "日出或日落前后天空色彩最丰富的短暂时刻，粉橙紫蓝的渐变天色，光线温柔而戏剧。",
+      "tags": [
+        "特效",
+        "自然光",
+        "天空"
+      ],
+      "example_prompt": "magic hour photography, pink and purple sky gradient, warm last light, long shadows, silhouette against colorful sunset sky",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 241,
+      "category_id": 14,
+      "keyword_en": "anamorphic lens",
+      "keyword_zh": "变形宽银幕镜头",
+      "description": "变形宽银幕电影镜头的蓝色水平光晕，电影感极强的宽画幅特效，是好莱坞大片的视觉标志。",
+      "tags": [
+        "特效",
+        "电影",
+        "宽银幕"
+      ],
+      "example_prompt": "anamorphic lens effect, horizontal blue streaks from light sources, oval bokeh, widescreen cinematic look, epic movie atmosphere",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 242,
+      "category_id": 14,
+      "keyword_en": "depth of field",
+      "keyword_zh": "景深",
+      "description": "控制画面前后清晰范围的摄影参数，浅景深突出主体、虚化背景，深景深保持全景清晰。",
+      "tags": [
+        "技术",
+        "摄影",
+        "构图"
+      ],
+      "example_prompt": "extreme shallow depth of field, only eyes in focus, nose and background blurred, intimate portrait, f/1.4 aperture effect",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 238,
+      "category_id": 14,
+      "keyword_en": "motion blur",
+      "keyword_zh": "动态模糊",
+      "description": "快速运动的物体在曝光期间产生的拖影效果，传达速度感与动态活力。",
+      "tags": [
+        "特效",
+        "运动",
+        "速度"
+      ],
+      "example_prompt": "motion blur on running figure, speed lines trailing behind, sharp head with blurred limbs, dynamic energy, action photography effect",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 244,
+      "category_id": 14,
+      "keyword_en": "X-ray view",
+      "keyword_zh": "X光透视效果",
+      "description": "模拟X光照片的透视效果，展现物体内部骨骼或结构，蓝紫色调与透明质感。",
+      "tags": [
+        "特效",
+        "科学",
+        "透明"
+      ],
+      "example_prompt": "X-ray view of human hand, bone structure visible through translucent flesh, medical imaging aesthetic, cool blue-purple tones",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 240,
+      "category_id": 14,
+      "keyword_en": "chromatic aberration",
+      "keyword_zh": "色差效果",
+      "description": "镜头色散产生的彩色边缘偏移，红蓝通道的错位造成赛博感的数字失真风格。",
+      "tags": [
+        "特效",
+        "数字",
+        "故障"
+      ],
+      "example_prompt": "chromatic aberration effect, RGB channel fringing on edges, cyberpunk glitch aesthetic, slight color separation, digital art style",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 245,
+      "category_id": 14,
+      "keyword_en": "satellite view",
+      "keyword_zh": "卫星俯瞰视角",
+      "description": "卫星或航空照片的极高空俯瞰效果，展现地理全貌、城市网格与自然地貌的宏大图案。",
+      "tags": [
+        "特效",
+        "地理",
+        "宏观"
+      ],
+      "example_prompt": "satellite view aerial photograph, geographic terrain patterns, agricultural field grids, river delta from above, Google Earth aesthetic",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 239,
+      "category_id": 14,
+      "keyword_en": "vignetting",
+      "keyword_zh": "暗角效果",
+      "description": "画面四角逐渐变暗的光学效果，将视线引向画面中心，增加复古与戏剧感。",
+      "tags": [
+        "特效",
+        "复古",
+        "聚焦"
+      ],
+      "example_prompt": "strong vignette effect, darkened edges framing bright center subject, vintage lens look, focused dramatic atmosphere",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 290,
+      "category_id": 15,
+      "keyword_en": "Kimetsu no Yaiba style",
+      "keyword_zh": "鬼灭之刃风格",
+      "description": "吾峠呼世晴的大正时代鬼灭漫画，华丽的水之呼吸效果、日本传统纹样与独特的角色服装。",
+      "tags": [
+        "动画作品",
+        "日本",
+        "传统"
+      ],
+      "example_prompt": "Demon Slayer Kimetsu no Yaiba style, Water Breathing technique visual effect, Taisho era Japan, checkered haori pattern, Ufotable special effects",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 284,
+      "category_id": 15,
+      "keyword_en": "Manga style",
+      "keyword_zh": "日式漫画风格",
+      "description": "日本漫画的黑白印刷风格，网点纸效果、大眼精致的人物设计、强烈的动态线与情感特写。",
+      "tags": [
+        "漫画",
+        "日本",
+        "黑白"
+      ],
+      "example_prompt": "Manga Japanese comics style, black and white screentone texture, expressive large eyes, speed lines effect, emotional close-up face, Shonen art quality",
+      "weight": 5,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 279,
+      "category_id": 15,
+      "keyword_en": "2D cartoon",
+      "keyword_zh": "2D卡通",
+      "description": "传统二维卡通风格，平面线条勾勒、色块填充，是电视动画的经典视觉语言。",
+      "tags": [
+        "卡通",
+        "2D",
+        "基础"
+      ],
+      "example_prompt": "2D cartoon style illustration, clean flat line art, bold outlines, solid color fills, cheerful character design, Saturday morning cartoon feel",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 280,
+      "category_id": 15,
+      "keyword_en": "3D cartoon",
+      "keyword_zh": "3D卡通",
+      "description": "以3D技术渲染的卡通风格，保留卡通的夸张特征但加入立体光影，现代动画的主流形式。",
+      "tags": [
+        "卡通",
+        "3D",
+        "现代"
+      ],
+      "example_prompt": "3D cartoon character render, round smooth geometry, cartoon shading, colorful toon material, cheerful animated movie style",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 283,
+      "category_id": 15,
+      "keyword_en": "American comic book style",
+      "keyword_zh": "美式漫画风格",
+      "description": "美国超级英雄漫画的视觉风格，粗犷的墨线勾勒、有限色彩与夸张的男女体型，动感十足。",
+      "tags": [
+        "漫画",
+        "美国",
+        "英雄"
+      ],
+      "example_prompt": "American comic book style superhero, bold ink outlines, halftone dots, primary color costume, dynamic action pose, Marvel DC aesthetic",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 287,
+      "category_id": 15,
+      "keyword_en": "Dragon Ball style",
+      "keyword_zh": "七龙珠风格",
+      "description": "鸟山明创作的经典热血漫画，肌肉爆发感与超级赛亚人的金发光环，战斗气场爆发效果。",
+      "tags": [
+        "动画作品",
+        "热血",
+        "战斗"
+      ],
+      "example_prompt": "Dragon Ball Super Saiyan style, golden aura power-up, spiky yellow hair, muscle tension, energy ball in hand, Akira Toriyama character design",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 292,
+      "category_id": 15,
+      "keyword_en": "JoJo's Bizarre Adventure style",
+      "keyword_zh": "JoJo的奇妙冒险风格",
+      "description": "荒木飞吕彦的华丽时尚漫画，夸张的肌肉与时尚POSE、闪亮的替身能力与致命的精彩台词。",
+      "tags": [
+        "动画作品",
+        "时尚",
+        "荒诞"
+      ],
+      "example_prompt": "JoJo's Bizarre Adventure style, dramatic muscle pose, menacing Stand ability, colorful flashy costume, Hirohiko Araki fashion art, iconic poses",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 291,
+      "category_id": 15,
+      "keyword_en": "One Piece style",
+      "keyword_zh": "海贼王风格",
+      "description": "尾田荣一郎的航海冒险漫画，夸张的橡皮手法身体变形、热带岛屿冒险与细密的世界观构建。",
+      "tags": [
+        "动画作品",
+        "冒险",
+        "热血"
+      ],
+      "example_prompt": "One Piece manga style pirate adventure, rubber body stretch ability, Grand Line sea setting, Oda Eiichiro exaggerated character design",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 289,
+      "category_id": 15,
+      "keyword_en": "Sailor Moon style",
+      "keyword_zh": "美少女战士风格",
+      "description": "武内直子的少女战队漫画，华丽的变身场景、月亮图案装饰与少女漫画的闪光眼眸。",
+      "tags": [
+        "动画作品",
+        "少女",
+        "变身"
+      ],
+      "example_prompt": "Sailor Moon magical girl style, sparkly transformation sequence, crescent moon decoration, bishoujo shojo manga aesthetics, pink and white costume",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 286,
+      "category_id": 15,
+      "keyword_en": "The Simpsons style",
+      "keyword_zh": "辛普森家庭风格",
+      "description": "《辛普森家庭》标志性的黄色皮肤、四指设计与美国小镇的成人动画美学。",
+      "tags": [
+        "动画作品",
+        "成人",
+        "讽刺"
+      ],
+      "example_prompt": "The Simpsons animation style, yellow-skinned characters, four fingers, simple 2D Springfield setting, satirical American suburban life",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 281,
+      "category_id": 15,
+      "keyword_en": "2D animation",
+      "keyword_zh": "2D动画",
+      "description": "逐帧绘制的传统二维动画，强调流畅的动作曲线与经典的手绘质感。",
+      "tags": [
+        "动画",
+        "2D",
+        "手绘"
+      ],
+      "example_prompt": "2D animation frame, hand-drawn movement, traditional cel animation look, flowing motion arcs, vintage cartoon quality",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 282,
+      "category_id": 15,
+      "keyword_en": "3D animation",
+      "keyword_zh": "3D动画",
+      "description": "计算机生成的三维动画，精确的物理模拟与光影渲染，当代电影级动画的标准技术。",
+      "tags": [
+        "动画",
+        "3D",
+        "技术"
+      ],
+      "example_prompt": "3D animated movie frame, photorealistic CGI rendering, cinematic lighting, studio quality, Pixar-level animation production",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 288,
+      "category_id": 15,
+      "keyword_en": "Doraemon style",
+      "keyword_zh": "哆啦A梦风格",
+      "description": "藤子·F·不二雄创作的机器猫，简洁圆润的蓝色机器人与昭和时代日本家庭的温馨感。",
+      "tags": [
+        "动画作品",
+        "儿童",
+        "日本"
+      ],
+      "example_prompt": "Doraemon manga style blue robot cat, round simple design, Japanese traditional house setting, Fujiko F Fujio simple clean line art",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 285,
+      "category_id": 15,
+      "keyword_en": "SpongeBob style",
+      "keyword_zh": "海绵宝宝风格",
+      "description": "尼克动画《海绵宝宝》的独特风格，海底世界的扁平卡通与夸张搞笑的角色设计。",
+      "tags": [
+        "动画作品",
+        "卡通",
+        "儿童"
+      ],
+      "example_prompt": "SpongeBob SquarePants cartoon style, Bikini Bottom underwater setting, flat 2D animation, yellow sponge character, absurd humor aesthetic",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 304,
+      "category_id": 16,
+      "keyword_en": "3D floor plan",
+      "keyword_zh": "3D室内平面图",
+      "description": "带有立体感的室内设计鸟瞰图，在平面布局基础上加入家具的三维形态与材质，更直观易懂。",
+      "tags": [
+        "设计",
+        "建筑",
+        "3D"
+      ],
+      "example_prompt": "3D floor plan visualization, bird-eye view interior design with furniture, realistic materials, architectural model aesthetic, isometric apartment layout",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 294,
+      "category_id": 16,
+      "keyword_en": "3D model exploded view",
+      "keyword_zh": "3D爆炸图",
+      "description": "将产品各零件分离展示的工程透视图，清晰呈现内部结构与装配关系，常用于产品介绍。",
+      "tags": [
+        "设计",
+        "工程",
+        "结构"
+      ],
+      "example_prompt": "3D model exploded view of mechanical watch, components floating apart to show internal mechanism, technical diagram style, clean white background",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 297,
+      "category_id": 16,
+      "keyword_en": "character lego",
+      "keyword_zh": "乐高人物风格",
+      "description": "乐高积木人偶的视觉风格，方形头部、黄色皮肤、简化的五官表情与积木拼接感。",
+      "tags": [
+        "设计",
+        "玩具",
+        "儿童"
+      ],
+      "example_prompt": "Lego character style minifigure, square yellow head, printed facial expression, blocky plastic toy aesthetic, bright primary color costume",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 300,
+      "category_id": 16,
+      "keyword_en": "emblem logo design",
+      "keyword_zh": "徽章Logo设计",
+      "description": "将文字、图形与边框整合为密集徽章形式的Logo，常见于运动队、学校与传统品牌的权威感标志。",
+      "tags": [
+        "设计",
+        "Logo",
+        "权威"
+      ],
+      "example_prompt": "emblem logo design, shield shape with typography, sports team badge style, traditional crest composition, detailed ornamental border",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 293,
+      "category_id": 16,
+      "keyword_en": "knolling",
+      "keyword_zh": "开箱俯拍",
+      "description": "将物品整齐并排在平面上从上方拍摄的展示风格，物品之间成90度角排列，常见于开箱与产品展示。",
+      "tags": [
+        "设计",
+        "产品",
+        "整齐"
+      ],
+      "example_prompt": "knolling flat lay photography, tech gadgets neatly arranged on white surface, 90 degree angles, product unboxing style, organized composition",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 299,
+      "category_id": 16,
+      "keyword_en": "mascot logo design",
+      "keyword_zh": "吉祥物Logo设计",
+      "description": "以卡通角色为品牌代言的Logo设计风格，友好可爱的形象与品牌色彩结合，增强品牌亲和力。",
+      "tags": [
+        "设计",
+        "Logo",
+        "品牌"
+      ],
+      "example_prompt": "mascot logo design for coffee brand, friendly cartoon character, circular badge composition, brand color palette, clean vector illustration",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 301,
+      "category_id": 16,
+      "keyword_en": "minimal line logo",
+      "keyword_zh": "简约线条Logo",
+      "description": "用最少的线条传达品牌形象的极简Logo设计，单色细线构成，现代科技感强。",
+      "tags": [
+        "设计",
+        "Logo",
+        "极简"
+      ],
+      "example_prompt": "minimal line logo design, single thin line forming abstract symbol, clean white background, modern tech brand aesthetic, negative space usage",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 306,
+      "category_id": 16,
+      "keyword_en": "pixel art game character sprites",
+      "keyword_zh": "像素角色分解图",
+      "description": "游戏角色在不同动作状态下的像素图集，展示走路、攻击、跳跃等动画帧的完整分解。",
+      "tags": [
+        "设计",
+        "游戏",
+        "角色"
+      ],
+      "example_prompt": "pixel art character sprite sheet, multiple animation frames arranged on grid, walking and attack cycles, 16x16 sprite size, game asset design",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 303,
+      "category_id": 16,
+      "keyword_en": "2D floor plan",
+      "keyword_zh": "2D室内平面图",
+      "description": "建筑室内设计的标准平面视图，展示家具布局与空间尺寸关系，清晰的二维线图表示。",
+      "tags": [
+        "设计",
+        "建筑",
+        "室内"
+      ],
+      "example_prompt": "2D architectural floor plan, clean top-down room layout, furniture placement symbols, wall thickness lines, professional blueprint style",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 295,
+      "category_id": 16,
+      "keyword_en": "analytic drawing",
+      "keyword_zh": "分析图",
+      "description": "带有标注说明的技术分析图，用箭头和文字标签解释结构功能，清晰传达信息的视觉图表。",
+      "tags": [
+        "设计",
+        "技术",
+        "图表"
+      ],
+      "example_prompt": "analytic drawing diagram style, labeled components with arrows, technical illustration, clean informational design, product structure explanation",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 298,
+      "category_id": 16,
+      "keyword_en": "character toy",
+      "keyword_zh": "人形玩具风格",
+      "description": "可动人偶玩具的视觉风格，有关节卡扣的硬质塑料质感，盒装玩具的展示造型。",
+      "tags": [
+        "设计",
+        "玩具",
+        "收藏"
+      ],
+      "example_prompt": "action figure toy style character, articulated joints visible, hard plastic surface, packaged collector toy aesthetic, blister pack display",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 373,
+      "category_id": 16,
+      "keyword_en": "diagrammatic drawing",
+      "keyword_zh": "示意图",
+      "description": "用简化图形符号说明原理或流程的功能性图解，去除多余装饰专注于信息传达。",
+      "tags": [
+        "设计",
+        "图表",
+        "说明"
+      ],
+      "example_prompt": "diagrammatic drawing of machine workflow, simplified schematic symbols, clean technical illustration, process flow diagram style",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 296,
+      "category_id": 16,
+      "keyword_en": "encyclopedia illustration",
+      "keyword_zh": "百科全书插图",
+      "description": "类似百科全书的精细示意图风格，细腻的线条配合文字标注，权威而详尽的科学图解。",
+      "tags": [
+        "设计",
+        "插图",
+        "教育"
+      ],
+      "example_prompt": "encyclopedia illustration style of plant anatomy, botanical art precision, labeled diagram, historical scientific illustration aesthetic, ink and watercolor",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 302,
+      "category_id": 16,
+      "keyword_en": "lettermark logo",
+      "keyword_zh": "字母标识Logo",
+      "description": "以品牌首字母或缩写构成的Logo，将字母进行艺术化处理，简洁有力的文字型品牌标识。",
+      "tags": [
+        "设计",
+        "Logo",
+        "字体"
+      ],
+      "example_prompt": "lettermark logo design, stylized initial letters, custom typography treatment, elegant monogram style, professional brand identity",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 374,
+      "category_id": 16,
+      "keyword_en": "manual style",
+      "keyword_zh": "说明书风格",
+      "description": "产品使用说明书的视觉风格，简洁的线稿图配合步骤编号，实用而清晰的功能说明图解。",
+      "tags": [
+        "设计",
+        "插图",
+        "说明"
+      ],
+      "example_prompt": "product instruction manual style illustration, step-by-step assembly guide, clean line drawings with numbers, IKEA-style minimalist instruction art",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 305,
+      "category_id": 16,
+      "keyword_en": "pixel art floor plan",
+      "keyword_zh": "像素风室内平面图",
+      "description": "用像素艺术风格绘制的室内平面图，游戏化的建筑视觉，适合游戏地图与创意展示。",
+      "tags": [
+        "设计",
+        "像素",
+        "游戏"
+      ],
+      "example_prompt": "pixel art 2D floor plan of cozy house, RPG game map style room layout, tile-based floor design, top-down video game aesthetic",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 310,
+      "category_id": 17,
+      "keyword_en": "black outline",
+      "keyword_zh": "黑色外框线",
+      "description": "用黑色粗细线条勾勒图形边缘，是漫画与卡通插画的标准视觉特征。",
+      "tags": [
+        "线稿",
+        "漫画",
+        "黑色"
+      ],
+      "example_prompt": "bold black outline cartoon illustration, thick ink contour around character, comic book inking style, strong silhouette definition",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 309,
+      "category_id": 17,
+      "keyword_en": "clean outline",
+      "keyword_zh": "干净外框线",
+      "description": "整洁清晰的轮廓线条，无杂乱细节的简洁边框，适合制作着色本或线稿设计的关键词。",
+      "tags": [
+        "线稿",
+        "简洁",
+        "轮廓"
+      ],
+      "example_prompt": "cartoon character with clean outline only, crisp black contour on white background, no shading or texture, pure line art style",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 307,
+      "category_id": 17,
+      "keyword_en": "coloring book",
+      "keyword_zh": "着色本",
+      "description": "儿童着色本风格，白色背景配合黑色外框线构成的卡通图案，等待上色的简洁线稿。",
+      "tags": [
+        "线稿",
+        "儿童",
+        "着色"
+      ],
+      "example_prompt": "coloring book style illustration, clean black outlines on white background, cartoon character ready to color, no fill, simple for children",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 308,
+      "category_id": 17,
+      "keyword_en": "coloring page",
+      "keyword_zh": "着色页",
+      "description": "单页着色图稿，通常为复杂精细的图案设计，供成人或儿童填色使用的黑白线稿。",
+      "tags": [
+        "线稿",
+        "着色",
+        "设计"
+      ],
+      "example_prompt": "coloring page design, intricate mandala or nature scene, detailed black line art, white fill areas, adult coloring book complexity",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 314,
+      "category_id": 17,
+      "keyword_en": "sticker art",
+      "keyword_zh": "贴纸风格",
+      "description": "卡通贴纸的视觉效果，彩色图案配合白色或黑色轮廓线，白色背景下的可爱独立图形。",
+      "tags": [
+        "贴纸",
+        "卡通",
+        "可爱"
+      ],
+      "example_prompt": "cute cartoon sticker style, colorful character with clean contour border, white isolated background, kawaii sticker design, glossy print look",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 313,
+      "category_id": 17,
+      "keyword_en": "Zentangle",
+      "keyword_zh": "禅绕画",
+      "description": "由重复的细小图案组合而成的冥想艺术，密集的几何图案与有机形态交织，极具细节的线条艺术。",
+      "tags": [
+        "线稿",
+        "冥想",
+        "图案"
+      ],
+      "example_prompt": "Zentangle drawing style, intricate repeating pen patterns, detailed black and white decorative art, meditative doodling technique, dense pattern fills",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 315,
+      "category_id": 17,
+      "keyword_en": "contour",
+      "keyword_zh": "轮廓线",
+      "description": "沿图形边缘绘制的封闭轮廓线，将主体从背景中清晰分离，贴纸与线稿设计的核心元素。",
+      "tags": [
+        "线稿",
+        "轮廓",
+        "设计"
+      ],
+      "example_prompt": "character with clean contour outline for sticker design, smooth edge line, isolated silhouette, die-cut sticker ready artwork",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 311,
+      "category_id": 17,
+      "keyword_en": "simple outline",
+      "keyword_zh": "简单外框线",
+      "description": "用最少线条勾勒图形的极简轮廓风格，去除所有细节只保留基本形状的轮廓。",
+      "tags": [
+        "线稿",
+        "极简",
+        "轮廓"
+      ],
+      "example_prompt": "simple outline drawing, minimal single line contour, basic shape silhouette, clean and sparse line illustration, reductive design",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 312,
+      "category_id": 17,
+      "keyword_en": "thick outline",
+      "keyword_zh": "粗外框线",
+      "description": "明显粗重的黑色轮廓线，强化图形边缘的存在感，常见于儿童插画与印刷设计。",
+      "tags": [
+        "线稿",
+        "粗线",
+        "儿童"
+      ],
+      "example_prompt": "thick outline bold contour illustration, heavy ink strokes around cartoon characters, chunky black border, children book illustration style",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 320,
+      "category_id": 18,
+      "keyword_en": "Anime Pastel Dream",
+      "keyword_zh": "动漫粉彩梦境",
+      "description": "Leonardo.Ai 专属动漫风格模型，柔和粉彩色调的梦幻动漫美学，适合可爱角色与幻想场景。",
+      "tags": [
+        "AI模型",
+        "动漫",
+        "粉彩"
+      ],
+      "example_prompt": "Anime Pastel Dream model style, soft pastel colors, dreamy anime character design, gentle watercolor-like digital art, shojo manga aesthetic",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 328,
+      "category_id": 18,
+      "keyword_en": "Isometric Fantasy model",
+      "keyword_zh": "等距奇幻模型",
+      "description": "Leonardo.Ai 的等距奇幻场景专属模型，生成45度等角视角的奇幻游戏地图与像素级场景。",
+      "tags": [
+        "AI模型",
+        "等距",
+        "游戏"
+      ],
+      "example_prompt": "Isometric Fantasy model style, 45-degree isometric game map, detailed fantasy tile-based environment, RPG game level design, top-down isometric art",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 317,
+      "category_id": 18,
+      "keyword_en": "PhotoReal Cinematic",
+      "keyword_zh": "PhotoReal电影风格",
+      "description": "Leonardo.Ai PhotoReal 模式下的电影风格，模拟专业电影摄影棚质感，超逼真的电影画面。",
+      "tags": [
+        "AI模型",
+        "写实",
+        "电影"
+      ],
+      "example_prompt": "PhotoReal Cinematic mode portrait, cinematic film photography quality, studio movie set lighting, photographic realism with film color grading",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 318,
+      "category_id": 18,
+      "keyword_en": "PhotoReal Creative",
+      "keyword_zh": "PhotoReal创意风格",
+      "description": "Leonardo.Ai PhotoReal 的创意模式，在超写实基础上增加更多艺术创造性，打破常规的超写实风格。",
+      "tags": [
+        "AI模型",
+        "写实",
+        "创意"
+      ],
+      "example_prompt": "PhotoReal Creative mode, ultra-realistic yet imaginative composition, photographic quality with artistic creative elements, surreal realism",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 319,
+      "category_id": 18,
+      "keyword_en": "PhotoReal Vibrant",
+      "keyword_zh": "PhotoReal活力风格",
+      "description": "Leonardo.Ai PhotoReal 的活力模式，超写实画面配以饱和鲜艳的色彩，充满视觉冲击力。",
+      "tags": [
+        "AI模型",
+        "写实",
+        "色彩"
+      ],
+      "example_prompt": "PhotoReal Vibrant mode, hyperrealistic image with supersaturated vibrant colors, punchy color palette, dynamic visual energy, commercial photography feel",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 321,
+      "category_id": 18,
+      "keyword_en": "RPG v5 style",
+      "keyword_zh": "RPG游戏风格",
+      "description": "Leonardo.Ai 的 RPG 游戏风格模型，生成角色扮演游戏中的英雄、怪物与奇幻场景的专业模型。",
+      "tags": [
+        "AI模型",
+        "游戏",
+        "RPG"
+      ],
+      "example_prompt": "RPG v5 model fantasy game style, hero character design with detailed equipment, monster encounter scene, game art quality, JRPG aesthetic",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 327,
+      "category_id": 18,
+      "keyword_en": "Recraft icon style",
+      "keyword_zh": "Recraft图标风格",
+      "description": "Recraft AI 的图标设计风格，简洁的线条与填充构成的功能性图标，UI 设计级别的视觉语言。",
+      "tags": [
+        "AI模型",
+        "图标",
+        "UI设计"
+      ],
+      "example_prompt": "Recraft icon design style, clean simplified symbol, UI-ready icon, single color or duotone palette, app icon aesthetic, minimal functional design",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 326,
+      "category_id": 18,
+      "keyword_en": "Recraft vector style",
+      "keyword_zh": "Recraft矢量插画风格",
+      "description": "Recraft AI 专业矢量图生成风格，清晰的路径边缘、平涂色块与可无限缩放的矢量插画质感。",
+      "tags": [
+        "AI模型",
+        "矢量",
+        "Recraft"
+      ],
+      "example_prompt": "Recraft vector image style, clean SVG-quality illustration, sharp geometric edges, flat color fills, professional vector graphic design",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 322,
+      "category_id": 18,
+      "keyword_en": "Alchemy Environment mode",
+      "keyword_zh": "Alchemy环境模式",
+      "description": "Leonardo.Ai Alchemy 功能的环境模式，专门针对自然风景、室内空间与户外场景优化的渲染模式。",
+      "tags": [
+        "AI模型",
+        "环境",
+        "风景"
+      ],
+      "example_prompt": "Alchemy Environment mode landscape render, optimized for natural scenery and architectural spaces, atmospheric depth, environmental storytelling",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 323,
+      "category_id": 18,
+      "keyword_en": "Alchemy Raytraced mode",
+      "keyword_zh": "Alchemy光线追踪模式",
+      "description": "Leonardo.Ai Alchemy 的光线追踪模式，模拟真实物理光照计算，适合游戏场景与3D渲染风格。",
+      "tags": [
+        "AI模型",
+        "光追",
+        "3D"
+      ],
+      "example_prompt": "Alchemy Raytraced mode render, physically based rendering quality, realistic light reflections and shadows, game engine screenshot aesthetic, 3D scene",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 316,
+      "category_id": 18,
+      "keyword_en": "DreamShaper style",
+      "keyword_zh": "DreamShaper风格",
+      "description": "Leonardo.Ai 主要产图模型，可快速生成各种风格，是多用途的高质量通用 AI 绘图模型。",
+      "tags": [
+        "AI模型",
+        "通用",
+        "Leonardo"
+      ],
+      "example_prompt": "DreamShaper model style, versatile high quality AI generated image, balanced realism and artistic rendering, clean detailed illustration",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 324,
+      "category_id": 18,
+      "keyword_en": "Sketch B/W mode",
+      "keyword_zh": "黑白铅笔素描模式",
+      "description": "Leonardo.Ai Alchemy 的黑白铅笔素描模式，将内容渲染为逼真的铅笔手绘草图效果。",
+      "tags": [
+        "AI模型",
+        "素描",
+        "黑白"
+      ],
+      "example_prompt": "Sketch Black and White mode rendering, detailed pencil sketch quality, graphite drawing technique, artist study sketch aesthetic, hand-drawn feel",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 325,
+      "category_id": 18,
+      "keyword_en": "Sketch Color mode",
+      "keyword_zh": "彩色铅笔素描模式",
+      "description": "Leonardo.Ai Alchemy 的彩色铅笔素描模式，结合彩色铅笔的温柔笔触与写生草图的轻松质感。",
+      "tags": [
+        "AI模型",
+        "素描",
+        "彩色"
+      ],
+      "example_prompt": "Sketch Color mode, colored pencil illustration quality, loose sketchy technique, color study rendering, artist sketchbook aesthetic",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 329,
+      "category_id": 19,
+      "keyword_en": "Play-Doh clay",
+      "keyword_zh": "培乐多黏土",
+      "description": "儿童彩色黏土的质感，鲜艳色彩、光滑表面与手捏留下的质朴形态，充满童趣的立体造型。",
+      "tags": [
+        "媒材",
+        "黏土",
+        "儿童"
+      ],
+      "example_prompt": "Play-Doh clay style sculpted scene, colorful plasticine textures, childlike handmade forms, smooth molded surface, brightly colored clay characters",
+      "weight": 4,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 335,
+      "category_id": 19,
+      "keyword_en": "Blacklight Painting",
+      "keyword_zh": "黑光画",
+      "description": "在紫外线黑光灯照射下发光的荧光颜料绘画，黑色背景上绽放出鲜艳的荧光色彩，极具视觉冲击力。",
+      "tags": [
+        "媒材",
+        "荧光",
+        "特效"
+      ],
+      "example_prompt": "Blacklight UV painting, neon fluorescent colors glowing under ultraviolet light, black background, psychedelic luminous artwork, blacklight poster aesthetic",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 331,
+      "category_id": 19,
+      "keyword_en": "felt doll",
+      "keyword_zh": "羊毛氈娃娃",
+      "description": "羊毛毡刺绣制作的手工娃娃，柔软蓬松的毛料质感与手工缝制的温暖细节，DIY手作氛围浓厚。",
+      "tags": [
+        "媒材",
+        "手工",
+        "温暖"
+      ],
+      "example_prompt": "felt doll handcraft style, woolly plush texture, embroidered facial details, soft fabric construction, artisan handmade amigurumi aesthetic",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 330,
+      "category_id": 19,
+      "keyword_en": "plastic doll",
+      "keyword_zh": "塑胶公仔",
+      "description": "硬质塑胶材质的人物公仔，关节可动的收藏玩具质感，光滑反光的工厂制造外观。",
+      "tags": [
+        "媒材",
+        "玩具",
+        "塑胶"
+      ],
+      "example_prompt": "plastic action figure doll style, rigid vinyl surface, collector toy quality, factory-painted details, articulated pose, blister pack product display",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 334,
+      "category_id": 19,
+      "keyword_en": "sand sculpture",
+      "keyword_zh": "沙雕",
+      "description": "用湿沙塑造的临时雕塑艺术，细腻的沙粒纹理与雕刻细节，在海滩或比赛场所展示的大型艺术品。",
+      "tags": [
+        "媒材",
+        "雕塑",
+        "沙滩"
+      ],
+      "example_prompt": "sand sculpture art on beach, incredibly detailed sand carving, fine grain texture, temporary monumental sculpture, sand castle art competition style",
+      "weight": 3,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 336,
+      "category_id": 19,
+      "keyword_en": "Cibulak porcelain",
+      "keyword_zh": "陶瓷彩绘",
+      "description": "捷克波西米亚传统蓝色洋葱图案彩绘陶瓷，精细的手绘植物纹样与白蓝配色，中欧陶艺工艺的代表。",
+      "tags": [
+        "媒材",
+        "陶瓷",
+        "传统"
+      ],
+      "example_prompt": "Cibulak porcelain painting style, blue onion pattern on white ceramic, delicate hand-painted botanical motifs, Czech bohemian pottery aesthetic",
+      "weight": 2,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 332,
+      "category_id": 19,
+      "keyword_en": "Thai puppet theater",
+      "keyword_zh": "泰国戏偶",
+      "description": "东南亚传统布偶戏的精美戏偶造型，华丽的传统服饰、金色装饰与精雕细琢的面具表情。",
+      "tags": [
+        "媒材",
+        "传统",
+        "东南亚"
+      ],
+      "example_prompt": "Thai puppet theater nang yai style, ornate traditional costume, gilded headpiece, intricate decorative details, Southeast Asian shadow puppet aesthetic",
+      "weight": 2,
+      "created_at": "2026-04-27 04:34:32"
+    },
+    {
+      "id": 333,
+      "category_id": 19,
+      "keyword_en": "sock puppet",
+      "keyword_zh": "袜子娃娃",
+      "description": "用袜子手工制作的简易布偶，扣子做眼睛、毛线做头发，童趣十足的即兴创作玩偶。",
+      "tags": [
+        "媒材",
+        "手工",
+        "童趣"
+      ],
+      "example_prompt": "sock puppet craft style, DIY fabric character with button eyes and yarn hair, homemade puppet aesthetic, children craft activity, playful handmade look",
+      "weight": 2,
+      "created_at": "2026-04-27 04:34:32"
+    }
+  ]
+}

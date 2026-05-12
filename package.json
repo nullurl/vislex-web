@@ -8,6 +8,7 @@
     "dev:client": "vite",
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
     "build": "vite build",
+    "build:github": "vite build --base=/vislex-web/",
     "start": "node --loader tsx/esm server/index.ts",
     "seed": "npx tsx server/seed.ts",
     "setup": "npm run seed && npm run build"
