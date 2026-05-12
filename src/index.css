@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-surface-0 text-ink-primary font-sans antialiased;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-surface-1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-surface-4 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-ink-muted;
+  }
+
+  ::selection {
+    background-color: rgba(196, 162, 101, 0.25);
+    color: #F0EDE8;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-surface-2 border border-surface-3 rounded-xl transition-all duration-200;
+  }
+
+  .card-hover {
+    @apply card hover:border-gold/40 hover:bg-surface-3;
+  }
+
+  .btn-primary {
+    @apply bg-gold text-surface-0 font-medium px-4 py-2 rounded-lg 
+           hover:bg-gold-light active:bg-gold-dark transition-colors duration-150
+           text-sm tracking-wide;
+  }
+
+  .btn-ghost {
+    @apply text-ink-secondary border border-surface-3 px-4 py-2 rounded-lg
+           hover:border-gold/40 hover:text-ink-primary transition-colors duration-150 text-sm;
+  }
+
+  .tag {
+    @apply text-xs px-2 py-0.5 rounded-md bg-surface-3 text-ink-secondary border border-surface-4;
+  }
+
+  .tag-gold {
+    @apply text-xs px-2 py-0.5 rounded-md bg-gold/10 text-gold border border-gold/20;
+  }
+
+  .input {
+    @apply bg-surface-2 border border-surface-3 rounded-lg px-4 py-2.5
+           text-ink-primary placeholder-ink-muted
+           focus:outline-none focus:border-gold/50 focus:ring-1 focus:ring-gold/20
+           transition-colors duration-150 w-full text-sm;
+  }
+
+  .section-title {
+    @apply font-serif text-2xl text-ink-primary tracking-tight;
+  }
+
+  .divider {
+    @apply border-t border-surface-3;
+  }
+
+  .gold-dot {
+    @apply w-1.5 h-1.5 rounded-full bg-gold inline-block;
+  }
+}
+
+/* Prompt code block */
+.prompt-block {
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  background: rgba(196, 162, 101, 0.04);
+  border: 1px solid rgba(196, 162, 101, 0.15);
+  border-radius: 8px;
+  padding: 10px 14px;
+  color: #C4A265;
+  word-break: break-all;
+}
+
+/* Fade transitions */
+.page-enter {
+  animation: fadeIn 0.25s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Glow effect for selected items */
+.ring-gold-glow {
+  box-shadow: 0 0 0 2px rgba(196, 162, 101, 0.4),
+              0 0 12px rgba(196, 162, 101, 0.1);
+}
